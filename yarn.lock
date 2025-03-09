@@ -5888,7 +5888,7 @@ __metadata:
     pretty-quick: "npm:^4.1.1"
     react: "npm:^19.0.0"
     react-dom: "npm:^19.0.0"
-    simple-icons-astro: "npm:^14.9.0"
+    simple-icons-astro: "npm:^14.10.0"
     tailwind-merge: "npm:^3.0.2"
     tailwindcss: "npm:^4.0.12"
     tailwindcss-animate: "npm:^1.0.7"
@@ -6004,12 +6004,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"simple-icons-astro@npm:^14.9.0":
-  version: 14.9.0
-  resolution: "simple-icons-astro@npm:14.9.0"
+"simple-icons-astro@npm:^14.10.0":
+  version: 14.10.0
+  resolution: "simple-icons-astro@npm:14.10.0"
   peerDependencies:
     astro: ">=2.7.1"
-  checksum: 10/dc4450eba1f724a3436eacb5c9867fc10555787acf3b672fcc6d85000c0b8ca80b41e345ac7ad839580b5d037bef907753d3f71964f0e545a03fb6b9231845f8
+  checksum: 10/ccc4c01b58a7c709768c9e565321f9a2efee9714227271cb75c4095a3d42a45bcaa744d7f5c4ae23c89fc4c07a40575a2f3028ebbf561dbd0e3cafc35e94207d
   languageName: node
   linkType: hard
 
