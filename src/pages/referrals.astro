@@ -8,29 +8,37 @@ import digitalocean from "~/assets/digitalocean.png";
 import dashlane from "~/assets/dashlane.png";
 ---
 
-<PageLayout title="Referrals" className="gap-4">
-    <ReferralCard
-        url="https://seren.link/oxide"
-        name="Oxide Hosting - affordable and reliable hosting"
-        description="We currently provide consumers both reliable and high quality Virtual Servers (VPS), Game Hosting, Website Hosting, Discord Bot Hosting and Domains at affordable prices."
-        image={oxide}
-    />
-    <ReferralCard
-        url="https://seren.link/sneak"
-        name="Sneak Energy - 5 sachets worth £10 for free"
-        description="We're on a mission to inspire you to create. Our sugar-free energy formula is a different kind of energy drink, with natural colours and natural flavours."
-        image={sneak}
-    />
-    <ReferralCard
-        url="https://seren.link/digitalocean"
-        name="DigitalOcean - $200, 60-day credit for new users"
-        description="Helping millions of developers easily build, test, manage, and scale applications of any size – faster than ever before."
-        image={digitalocean}
-    />
-    <ReferralCard
-        url="https://seren.link/dashlane"
-        name="Dashlane - claim your 6 months of premium"
-        description="Live a safer life online with Dashlane password manager: Store and fill in all your passwords, personal information, and payments."
-        image={dashlane}
-    />
+<PageLayout title="Referrals" className="container my-4">
+    <div class="py-4">
+        <h1 class="text-2xl leading-none font-semibold">Referrals</h1>
+        <p class="text-muted-foreground">
+            A list of links that can be used to support me
+        </p>
+    </div>
+    <div class="grid gap-4">
+        <ReferralCard
+            url="https://seren.link/oxide"
+            name="Oxide Hosting — affordable and reliable hosting"
+            description="We currently provide consumers both reliable and high quality Virtual Servers (VPS), Game Hosting, Website Hosting, Discord Bot Hosting and Domains at affordable prices."
+            image={oxide}
+        />
+        <ReferralCard
+            url="https://seren.link/sneak"
+            name="Sneak Energy — 5 sachets worth £10 for free"
+            description="We're on a mission to inspire you to create. Our sugar-free energy formula is a different kind of energy drink, with natural colours and natural flavours."
+            image={sneak}
+        />
+        <ReferralCard
+            url="https://seren.link/digitalocean"
+            name="DigitalOcean — $200, 60-day credit for new users"
+            description="Helping millions of developers easily build, test, manage, and scale applications of any size – faster than ever before."
+            image={digitalocean}
+        />
+        <ReferralCard
+            url="https://seren.link/dashlane"
+            name="Dashlane — claim your 6 months of premium"
+            description="Live a safer life online with Dashlane password manager: Store and fill in all your passwords, personal information, and payments."
+            image={dashlane}
+        />
+    </div>
 </PageLayout>

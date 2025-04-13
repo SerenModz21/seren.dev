@@ -7,7 +7,7 @@ import {
     CardHeader,
     CardTitle,
 } from "./ui/card";
-import { Circle, Star, GitFork } from "lucide-react";
+import { Circle, Star, GitFork, ExternalLink } from "lucide-react";
 import { Badge } from "./ui/badge";
 
 interface Props {
@@ -32,14 +32,17 @@ const repoLanguageColour = repo.language
 
 <Card>
     <CardHeader className="pb-4">
-        <CardTitle className="flex shrink items-center truncate text-lg">
+        <CardTitle
+            className="flex shrink items-center justify-between truncate text-lg"
+        >
             <a
                 href={repo.html_url}
-                class="hover:underline"
+                class="inline-flex items-center gap-2 hover:underline"
                 target="_blank"
                 rel="noopener noreferrer"
             >
-                {repo.name}
+                {repo.full_name}
+                <ExternalLink className="size-4" />
             </a>
             {
                 repo.archived && (

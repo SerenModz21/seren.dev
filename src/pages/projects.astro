@@ -3,17 +3,27 @@ import PageLayout from "~/layouts/PageLayout.astro";
 import ProjectSection from "~/components/ProjectSection.astro";
 
 import { fetchUserRepos, fetchOrgRepos } from "~/lib/github";
+import GithubCard from "~/components/GithubCard.astro";
 
 const personalRepos = await fetchUserRepos("SerenModz21");
 const kingsWorldRepos = await fetchOrgRepos("Kings-World");
 const mixtapeRepos = await fetchOrgRepos("mixtape-bot");
 ---
 
-<PageLayout title="Projects">
-    <ProjectSection name="Personal" repos={personalRepos} />
-    <ProjectSection name="Kings World" repos={kingsWorldRepos} />
-    <ProjectSection
-        name="Mixtape"
-        repos={mixtapeRepos.filter((r) => ["deck.js", "rpc"].includes(r.name))}
-    />
+<PageLayout title="Projects" className="container my-4">
+    <div class="py-4">
+        <h1 class="text-2xl leading-none font-semibold">Projects</h1>
+        <p class="text-muted-foreground">
+            A collection of my open-source GitHub projects
+        </p>
+    </div>
+    <div class="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+        {personalRepos.map((r) => <GithubCard repo={r} />)}
+        {kingsWorldRepos.map((r) => <GithubCard repo={r} />)}
+        {
+            mixtapeRepos
+                .filter((r) => ["deck.js", "rpc"].includes(r.name))
+                .map((r) => <GithubCard repo={r} />)
+        }
+    </div>
 </PageLayout>

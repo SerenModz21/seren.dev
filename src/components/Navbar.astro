@@ -4,7 +4,9 @@ import MainNav from "./MainNav.astro";
 import { MobileNav } from "./MobileNav";
 ---
 
-<header class="mx-4 my-2 flex w-full flex-row justify-between px-2 xl:px-0">
+<header
+    class="container flex h-14 w-full flex-row items-center justify-between border-b"
+>
     <MainNav />
     <MobileNav client:visible />
     <ThemeToggle variant="ghost" />
