@@ -15,9 +15,6 @@ const { title, description, className } = Astro.props;
 ---
 
 <Layout title={title} description={description}>
-    <!-- <div
-        class="flex flex-col items-center lg:mx-auto lg:max-w-(--breakpoint-xl)"
-    > -->
     <Navbar />
     <main class={cn("flex-1", className)}>
         <slot />
