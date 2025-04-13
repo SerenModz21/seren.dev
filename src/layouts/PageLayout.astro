@@ -1,6 +1,5 @@
 ---
 import Layout from "~/layouts/Layout.astro";
-import { Separator } from "~/components/ui/separator";
 import type { ClassValue } from "clsx";
 import { cn } from "~/lib/utils";
 import Navbar from "~/components/Navbar.astro";
@@ -15,15 +14,8 @@ const { title, description, className } = Astro.props;
 ---
 
 <Layout title={title} description={description}>
-    <div
-        class="flex min-h-dvh flex-col items-center lg:mx-auto lg:max-w-(--breakpoint-xl)"
-    >
-        <Navbar />
-
-        <Separator />
-
-        <main class={cn("m-4 flex flex-col flex-1", className)}>
-            <slot />
-        </main>
-    </div>
+    <Navbar />
+    <main class={cn("flex-1", className)}>
+        <slot />
+    </main>
 </Layout>

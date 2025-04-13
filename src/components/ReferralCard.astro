@@ -2,6 +2,7 @@
 import { Button } from "./ui/button";
 import { Image } from "astro:assets";
 import { Card } from "./ui/card";
+import { ExternalLink } from "lucide-react";
 
 interface Props {
     url: string;
@@ -27,14 +28,15 @@ const [company] = name.split(" - ");
         )
     }
 
-    <div class="mt-2 space-y-1 sm:mt-0">
-        <h1 class="text-lg font-semibold text-balance sm:text-wrap">{name}</h1>
-        <p class="text-muted-foreground text-sm text-balance sm:text-wrap">
+    <div>
+        <h2 class="text-lg font-semibold text-balance">{name}</h2>
+        <p class="text-muted-foreground text-sm">
             {description}
         </p>
         <a href={url} target="_blank" rel="noopener noreferrer">
-            <Button variant="secondary" className="mt-3 cursor-pointer text-sm">
-                View Referral
+            <Button variant="link" className="cursor-pointer px-0! text-sm">
+                <span>View Referral</span>
+                <ExternalLink />
             </Button>
         </a>
     </div>
