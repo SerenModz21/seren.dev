@@ -119,9 +119,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@astrojs/react@npm:^4.2.4":
-  version: 4.2.4
-  resolution: "@astrojs/react@npm:4.2.4"
+"@astrojs/react@npm:^4.2.5":
+  version: 4.2.5
+  resolution: "@astrojs/react@npm:4.2.5"
   dependencies:
     "@vitejs/plugin-react": "npm:^4.3.4"
     ultrahtml: "npm:^1.5.3"
@@ -131,33 +131,33 @@ __metadata:
     "@types/react-dom": ^17.0.17 || ^18.0.6 || ^19.0.0
     react: ^17.0.2 || ^18.0.0 || ^19.0.0
     react-dom: ^17.0.2 || ^18.0.0 || ^19.0.0
-  checksum: 10/c26f0dd21ee4c7ebf2b2e5051abffc84adfe3053fd652e9fb69bb1dd55b0be3196e83098d049219e8048198a528c22218a8d09a95a79c0ed16f767dd902d7cd8
+  checksum: 10/41982565c9fcae2c675a99d2ac3c54b6d697dc78f1d5fc8264c3ee859ded43c934e14dcf74863bf03e17d3eeb2b82ab2b67a900b8fde72b2817d9761f7da65c3
   languageName: node
   linkType: hard
 
-"@astrojs/sitemap@npm:^3.3.0":
-  version: 3.3.0
-  resolution: "@astrojs/sitemap@npm:3.3.0"
+"@astrojs/sitemap@npm:^3.3.1":
+  version: 3.3.1
+  resolution: "@astrojs/sitemap@npm:3.3.1"
   dependencies:
     sitemap: "npm:^8.0.0"
     stream-replace-string: "npm:^2.0.0"
     zod: "npm:^3.24.2"
-  checksum: 10/8dad6fb6260e2f3f066b8a8fba83eda12a921f724baf01171f4b4799c7e9378dfb2ba3e86e8710ba84010d917bd61b0a9e4541bf761954404330dae1c447bb46
+  checksum: 10/92f621e34a0a559d2f20820f5f997cfcc576eed62be9d7081e83be0e4be129cff925f159b24d5b69c93a38dbcf6e378ea8ee424aaabc1b0556b666edb37430d3
   languageName: node
   linkType: hard
 
-"@astrojs/telemetry@npm:3.2.0":
-  version: 3.2.0
-  resolution: "@astrojs/telemetry@npm:3.2.0"
+"@astrojs/telemetry@npm:3.2.1":
+  version: 3.2.1
+  resolution: "@astrojs/telemetry@npm:3.2.1"
   dependencies:
-    ci-info: "npm:^4.1.0"
-    debug: "npm:^4.3.7"
+    ci-info: "npm:^4.2.0"
+    debug: "npm:^4.4.0"
     dlv: "npm:^1.1.3"
     dset: "npm:^3.1.4"
     is-docker: "npm:^3.0.0"
     is-wsl: "npm:^3.1.0"
     which-pm-runs: "npm:^1.1.0"
-  checksum: 10/d1ce4511049d3d9db0bc036519cd9762ccabd3638ffa2a25b858a55ff882798c7c3eeaa1bfbad967b4d2274afd298d46c390335c8579901ce202eb79f375e38d
+  checksum: 10/9f15a8b277cf665908d8db97db6174d6ad3d1e4e5ab7cb49c10c6da6c35c3542ebcba495cc3f0d52d8dcee6a55a6706cfa0d00a9b715a7174832df6655fea272
   languageName: node
   linkType: hard
 
@@ -1301,9 +1301,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@radix-ui/react-dialog@npm:^1.1.10":
-  version: 1.1.10
-  resolution: "@radix-ui/react-dialog@npm:1.1.10"
+"@radix-ui/react-dialog@npm:^1.1.11":
+  version: 1.1.11
+  resolution: "@radix-ui/react-dialog@npm:1.1.11"
   dependencies:
     "@radix-ui/primitive": "npm:1.1.2"
     "@radix-ui/react-compose-refs": "npm:1.1.2"
@@ -1313,7 +1313,7 @@ __metadata:
     "@radix-ui/react-focus-scope": "npm:1.1.4"
     "@radix-ui/react-id": "npm:1.1.1"
     "@radix-ui/react-portal": "npm:1.1.6"
-    "@radix-ui/react-presence": "npm:1.1.3"
+    "@radix-ui/react-presence": "npm:1.1.4"
     "@radix-ui/react-primitive": "npm:2.1.0"
     "@radix-ui/react-slot": "npm:1.2.0"
     "@radix-ui/react-use-controllable-state": "npm:1.2.2"
@@ -1329,7 +1329,7 @@ __metadata:
       optional: true
     "@types/react-dom":
       optional: true
-  checksum: 10/9c449d5f75e793ff64013d7171ae199d9c98c3b519bff34bdf353748f02fe484f508c627beaabb92c037fc42569124de1ae134b7a9aeaefd6947ac27bb08d92b
+  checksum: 10/04b8889fb2c29809468f2e83d31a39d5c2b12c2ac286c3cb70eb20dea82bd21b9711ddfd2f9885f3240675c91507771703c8dfc6083bf95cecdd80c99e16e8c5
   languageName: node
   linkType: hard
 
@@ -1425,9 +1425,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@radix-ui/react-presence@npm:1.1.3":
-  version: 1.1.3
-  resolution: "@radix-ui/react-presence@npm:1.1.3"
+"@radix-ui/react-presence@npm:1.1.4":
+  version: 1.1.4
+  resolution: "@radix-ui/react-presence@npm:1.1.4"
   dependencies:
     "@radix-ui/react-compose-refs": "npm:1.1.2"
     "@radix-ui/react-use-layout-effect": "npm:1.1.1"
@@ -1441,7 +1441,7 @@ __metadata:
       optional: true
     "@types/react-dom":
       optional: true
-  checksum: 10/314b2548c5bd44697607ffd8905d2a5f158af7b8b99c00fd19bbe9382a7a03643f9ea4b758bcde57cd6f222bf77c98266175376e0e088d8ee61deca8caa76ff3
+  checksum: 10/ba01f385f6beedba7bf50ffd4aca8091554a67aee2b7252605876136155ceb2fcf1b627dccaf2e49032231eda271fe0e8915040729da9d1f95d08b854d815305
   languageName: node
   linkType: hard
 
@@ -2357,14 +2357,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"astro@npm:^5.7.4":
-  version: 5.7.4
-  resolution: "astro@npm:5.7.4"
+"astro@npm:^5.7.5":
+  version: 5.7.5
+  resolution: "astro@npm:5.7.5"
   dependencies:
     "@astrojs/compiler": "npm:^2.11.0"
     "@astrojs/internal-helpers": "npm:0.6.1"
     "@astrojs/markdown-remark": "npm:6.3.1"
-    "@astrojs/telemetry": "npm:3.2.0"
+    "@astrojs/telemetry": "npm:3.2.1"
     "@capsizecss/unpack": "npm:^2.4.0"
     "@oslojs/encoding": "npm:^1.1.0"
     "@rollup/pluginutils": "npm:^5.1.4"
@@ -2426,7 +2426,7 @@ __metadata:
       optional: true
   bin:
     astro: astro.js
-  checksum: 10/6c47e5d23ea0c7b102fb73c47299d6aad7f269a445145bf38012819ec747c6036d856f34c6f1fb83c143b7f47f66cd77a94b869778dfe14108b9ec6af80bc08b
+  checksum: 10/14ba1895e037e16cac766fe839b012f6907bf10ad2896a591a103f586ffea84df248e270879614455e0a2c31d0138b78d5b520dd9af43d18a44e63b62036b84a
   languageName: node
   linkType: hard
 
@@ -2881,7 +2881,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"debug@npm:4, debug@npm:^4.0.0, debug@npm:^4.1.0, debug@npm:^4.3.1, debug@npm:^4.3.4, debug@npm:^4.3.7, debug@npm:^4.4.0":
+"debug@npm:4, debug@npm:^4.0.0, debug@npm:^4.1.0, debug@npm:^4.3.1, debug@npm:^4.3.4, debug@npm:^4.4.0":
   version: 4.4.0
   resolution: "debug@npm:4.4.0"
   dependencies:
@@ -4218,12 +4218,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lucide-react@npm:^0.501.0":
-  version: 0.501.0
-  resolution: "lucide-react@npm:0.501.0"
+"lucide-react@npm:^0.503.0":
+  version: 0.503.0
+  resolution: "lucide-react@npm:0.503.0"
   peerDependencies:
     react: ^16.5.1 || ^17.0.0 || ^18.0.0 || ^19.0.0
-  checksum: 10/24baab9ced3319e955a69c05b2669aa9fac97cd04284e04a9459b07dd919a20f573084e4d5fbead4bf9b6422022d3e82f63978948dbee33db0642108304f5494
+  checksum: 10/d7564a59c0b88868162c2af9633df18009635db9cad222ef05533c2ef02fd48921d5d057c447ce5435b3df2e5b68eab9f3a378beffdbc13b205f5b79ea21c8d8
   languageName: node
   linkType: hard
 
@@ -5916,29 +5916,29 @@ __metadata:
   resolution: "seren.dev@workspace:."
   dependencies:
     "@astrojs/check": "npm:^0.9.4"
-    "@astrojs/react": "npm:^4.2.4"
-    "@astrojs/sitemap": "npm:^3.3.0"
+    "@astrojs/react": "npm:^4.2.5"
+    "@astrojs/sitemap": "npm:^3.3.1"
     "@commitlint/cli": "npm:^19.8.0"
     "@commitlint/config-conventional": "npm:^19.8.0"
     "@octokit/rest": "npm:^21.1.1"
-    "@radix-ui/react-dialog": "npm:^1.1.10"
+    "@radix-ui/react-dialog": "npm:^1.1.11"
     "@radix-ui/react-slot": "npm:^1.2.0"
     "@tailwindcss/vite": "npm:^4.1.4"
     "@types/react": "npm:^19.1.2"
     "@types/react-dom": "npm:^19.1.2"
-    astro: "npm:^5.7.4"
+    astro: "npm:^5.7.5"
     class-variance-authority: "npm:^0.7.1"
     clsx: "npm:^2.1.1"
     husky: "npm:^9.1.7"
     is-ci: "npm:^4.1.0"
-    lucide-react: "npm:^0.501.0"
+    lucide-react: "npm:^0.503.0"
     prettier: "npm:^3.5.3"
     prettier-plugin-astro: "npm:^0.14.1"
     prettier-plugin-tailwindcss: "npm:^0.6.11"
     pretty-quick: "npm:^4.1.1"
     react: "npm:^19.1.0"
     react-dom: "npm:^19.1.0"
-    simple-icons-astro: "npm:^14.12.2"
+    simple-icons-astro: "npm:^14.12.3"
     tailwind-merge: "npm:^3.2.0"
     tailwindcss: "npm:^4.1.4"
     tailwindcss-animate: "npm:^1.0.7"
@@ -6054,12 +6054,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"simple-icons-astro@npm:^14.12.2":
-  version: 14.12.2
-  resolution: "simple-icons-astro@npm:14.12.2"
+"simple-icons-astro@npm:^14.12.3":
+  version: 14.12.3
+  resolution: "simple-icons-astro@npm:14.12.3"
   peerDependencies:
     astro: ">=2.7.1"
-  checksum: 10/e23bca455ba871b6b6f0ea81607466755e4abc91ff6b2bdacc110ad4e878fcba170ef14ec264e4dea666b558c89fe7b867f9a9a2c6301a5fc50fd8835b375002
+  checksum: 10/ff08d476fc37900b8c9caa17bc3ffea27c7309fc6a11b7050d8a3929134171a06296a6229dd6ec6ee5275ba8e08a6fb8a8975380fd08f1f6ac166ef8279607d6
   languageName: node
   linkType: hard
 
