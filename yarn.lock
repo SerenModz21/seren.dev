@@ -119,7 +119,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@astrojs/react@npm:^4.2.5":
+"@astrojs/react@npm:^4.2.7":
   version: 4.2.7
   resolution: "@astrojs/react@npm:4.2.7"
   dependencies:
@@ -1948,7 +1948,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tailwindcss/vite@npm:^4.1.4":
+"@tailwindcss/vite@npm:^4.1.5":
   version: 4.1.5
   resolution: "@tailwindcss/vite@npm:4.1.5"
   dependencies:
@@ -2086,7 +2086,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-dom@npm:^19.1.2":
+"@types/react-dom@npm:^19.1.3":
   version: 19.1.3
   resolution: "@types/react-dom@npm:19.1.3"
   peerDependencies:
@@ -2373,7 +2373,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"astro@npm:^5.7.5":
+"astro@npm:^5.7.10":
   version: 5.7.10
   resolution: "astro@npm:5.7.10"
   dependencies:
@@ -4227,12 +4227,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lucide-react@npm:^0.503.0":
-  version: 0.503.0
-  resolution: "lucide-react@npm:0.503.0"
+"lucide-react@npm:^0.507.0":
+  version: 0.507.0
+  resolution: "lucide-react@npm:0.507.0"
   peerDependencies:
     react: ^16.5.1 || ^17.0.0 || ^18.0.0 || ^19.0.0
-  checksum: 10/d7564a59c0b88868162c2af9633df18009635db9cad222ef05533c2ef02fd48921d5d057c447ce5435b3df2e5b68eab9f3a378beffdbc13b205f5b79ea21c8d8
+  checksum: 10/caf459d43ea04efb5cbf32a1200e61a42d958a570ca3a7512d01a4239a8825fc99943dc89c34bb59f196e1d20ebf8db6680c46e9e2e8c0810ae7a7b3323525fc
   languageName: node
   linkType: hard
 
@@ -5924,22 +5924,22 @@ __metadata:
   resolution: "seren.dev@workspace:."
   dependencies:
     "@astrojs/check": "npm:^0.9.4"
-    "@astrojs/react": "npm:^4.2.5"
+    "@astrojs/react": "npm:^4.2.7"
     "@astrojs/sitemap": "npm:^3.3.1"
     "@commitlint/cli": "npm:^19.8.0"
     "@commitlint/config-conventional": "npm:^19.8.0"
     "@octokit/rest": "npm:^21.1.1"
     "@radix-ui/react-dialog": "npm:^1.1.11"
     "@radix-ui/react-slot": "npm:^1.2.0"
-    "@tailwindcss/vite": "npm:^4.1.4"
+    "@tailwindcss/vite": "npm:^4.1.5"
     "@types/react": "npm:^19.1.2"
-    "@types/react-dom": "npm:^19.1.2"
-    astro: "npm:^5.7.5"
+    "@types/react-dom": "npm:^19.1.3"
+    astro: "npm:^5.7.10"
     class-variance-authority: "npm:^0.7.1"
     clsx: "npm:^2.1.1"
     husky: "npm:^9.1.7"
     is-ci: "npm:^4.1.0"
-    lucide-react: "npm:^0.503.0"
+    lucide-react: "npm:^0.507.0"
     prettier: "npm:^3.5.3"
     prettier-plugin-astro: "npm:^0.14.1"
     prettier-plugin-tailwindcss: "npm:^0.6.11"
@@ -5948,7 +5948,7 @@ __metadata:
     react-dom: "npm:^19.1.0"
     simple-icons-astro: "npm:^14.12.3"
     tailwind-merge: "npm:^3.2.0"
-    tailwindcss: "npm:^4.1.4"
+    tailwindcss: "npm:^4.1.5"
     tailwindcss-animate: "npm:^1.0.7"
     typescript: "npm:^5.8.3"
   languageName: unknown
@@ -6266,7 +6266,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tailwindcss@npm:4.1.5, tailwindcss@npm:^4.1.4":
+"tailwindcss@npm:4.1.5, tailwindcss@npm:^4.1.5":
   version: 4.1.5
   resolution: "tailwindcss@npm:4.1.5"
   checksum: 10/09b1ebbcbbbb5c532f919f19acd213d2868941d39f63fa2c2f4d2e25dc0a26555d8ee1d3c25958e3de84f89f1dec7b4368d96261554e44464c32c42f623ffdc5
