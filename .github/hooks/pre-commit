@@ -1,0 +1,4 @@
+#!/bin/sh
+
+yarn pretty-quick --staged
+git update-index --again
