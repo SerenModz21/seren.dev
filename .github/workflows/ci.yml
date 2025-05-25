@@ -10,6 +10,9 @@ env:
   ASTRO_TELEMETRY_DISABLED: true
   FORCE_COLOR: true
 
+permissions:
+  contents: read
+
 jobs:
   astro:
     name: Astro Check
