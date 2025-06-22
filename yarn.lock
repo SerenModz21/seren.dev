@@ -2378,9 +2378,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"astro@npm:^5.9.3":
-  version: 5.9.3
-  resolution: "astro@npm:5.9.3"
+"astro@npm:^5.10.0":
+  version: 5.10.0
+  resolution: "astro@npm:5.10.0"
   dependencies:
     "@astrojs/compiler": "npm:^2.12.2"
     "@astrojs/internal-helpers": "npm:0.6.1"
@@ -2449,7 +2449,7 @@ __metadata:
       optional: true
   bin:
     astro: astro.js
-  checksum: 10/143a0286cac40d9bec2f141df0e551858e37513f13c4e433504af0bfa32b0f0fab70392f586575975f88b8f58ad17a5f22831ee2b8a651bd8fa6e027d402a985
+  checksum: 10/23e1d6f4419fe50650faaff2bfd4798b8a585326f55aefe0a6af158a0177d3dcc89694ea213c8a5afbf0e51eeb5a935927c5ffdb36336a4a01583f3f94bc141a
   languageName: node
   linkType: hard
 
@@ -4205,12 +4205,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lucide-react@npm:^0.515.0":
-  version: 0.515.0
-  resolution: "lucide-react@npm:0.515.0"
+"lucide-react@npm:^0.522.0":
+  version: 0.522.0
+  resolution: "lucide-react@npm:0.522.0"
   peerDependencies:
     react: ^16.5.1 || ^17.0.0 || ^18.0.0 || ^19.0.0
-  checksum: 10/ae0d10faaeccfbc828f5ba245dd2dcb321642effe18d4ffb7dd52b52095c13f5cfb736b4bc3e589bac7f7299eabc6805747adc69dae0457acbc75b311379d8d4
+  checksum: 10/dc9ab24833b8991de45cec124f7d110d01298b03aea1e247b10c1cf78db778e110e374397d81d5f800cf37473df19b3c482acf7c371f35a4a14ef208b6d46290
   languageName: node
   linkType: hard
 
@@ -5887,17 +5887,17 @@ __metadata:
     "@tailwindcss/vite": "npm:^4.1.10"
     "@types/react": "npm:^19.1.8"
     "@types/react-dom": "npm:^19.1.6"
-    astro: "npm:^5.9.3"
+    astro: "npm:^5.10.0"
     class-variance-authority: "npm:^0.7.1"
     clsx: "npm:^2.1.1"
-    lucide-react: "npm:^0.515.0"
+    lucide-react: "npm:^0.522.0"
     prettier: "npm:^3.5.3"
     prettier-plugin-astro: "npm:^0.14.1"
     prettier-plugin-tailwindcss: "npm:^0.6.11"
     pretty-quick: "npm:^4.2.2"
     react: "npm:^19.1.0"
     react-dom: "npm:^19.1.0"
-    simple-icons-astro: "npm:^15.1.0"
+    simple-icons-astro: "npm:^15.2.0"
     tailwind-merge: "npm:^3.3.1"
     tailwindcss: "npm:^4.1.10"
     tailwindcss-animate: "npm:^1.0.7"
@@ -6013,12 +6013,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"simple-icons-astro@npm:^15.1.0":
-  version: 15.1.0
-  resolution: "simple-icons-astro@npm:15.1.0"
+"simple-icons-astro@npm:^15.2.0":
+  version: 15.2.0
+  resolution: "simple-icons-astro@npm:15.2.0"
   peerDependencies:
     astro: ">=2.7.1"
-  checksum: 10/4fe1dd28437dcf5eb55fa97669805b63fb52004ecebae61cb3e5e12b11ca11ee89c9b1aefcc3e93a44c35013054ce1390ca3e37ee138ad1887b3d85e669003ec
+  checksum: 10/a95cd05861e54b96c6cc7b61f2cc66587f06f2ed7fc215604f1592b0c57569306fdd81984d167b5bdb28aa7f55753ad6192aac6e28c5e823a1e1c5c5aa1d7d9e
   languageName: node
   linkType: hard
 
