@@ -2378,9 +2378,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"astro@npm:^5.10.1":
-  version: 5.10.1
-  resolution: "astro@npm:5.10.1"
+"astro@npm:^5.11.0":
+  version: 5.11.0
+  resolution: "astro@npm:5.11.0"
   dependencies:
     "@astrojs/compiler": "npm:^2.12.2"
     "@astrojs/internal-helpers": "npm:0.6.1"
@@ -2449,7 +2449,7 @@ __metadata:
       optional: true
   bin:
     astro: astro.js
-  checksum: 10/5c3926f427c97aa21e259a897587efbf742864bb9edea4efce5f4d8fc7cd2db8bfc25831e3cecb3f7a62b7754447142e5e086f107ae1053f8fad88acb891fa60
+  checksum: 10/2596275b30e4da73b5a155d52ed0cf51329e52a5700789e374e20b0af30a4bf5bb8be2507c9a95a95839904af5abe331d56ae8d0d33baeb250df4f0b6e41fb38
   languageName: node
   linkType: hard
 
@@ -5887,7 +5887,7 @@ __metadata:
     "@tailwindcss/vite": "npm:^4.1.11"
     "@types/react": "npm:^19.1.8"
     "@types/react-dom": "npm:^19.1.6"
-    astro: "npm:^5.10.1"
+    astro: "npm:^5.11.0"
     class-variance-authority: "npm:^0.7.1"
     clsx: "npm:^2.1.1"
     lucide-react: "npm:^0.525.0"
@@ -5897,7 +5897,7 @@ __metadata:
     pretty-quick: "npm:^4.2.2"
     react: "npm:^19.1.0"
     react-dom: "npm:^19.1.0"
-    simple-icons-astro: "npm:^15.3.0"
+    simple-icons-astro: "npm:^15.4.0"
     tailwind-merge: "npm:^3.3.1"
     tailwindcss: "npm:^4.1.11"
     tailwindcss-animate: "npm:^1.0.7"
@@ -6013,12 +6013,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"simple-icons-astro@npm:^15.3.0":
-  version: 15.3.0
-  resolution: "simple-icons-astro@npm:15.3.0"
+"simple-icons-astro@npm:^15.4.0":
+  version: 15.4.0
+  resolution: "simple-icons-astro@npm:15.4.0"
   peerDependencies:
     astro: ">=2.7.1"
-  checksum: 10/6ebf8c7131acb71b815ab6409c2363439914e0dd5e82e8c835b9d025316e96354b3b8335bc15c63e4566bfb1f6e9aad4e97e5dff19a70d16bb58a8759b5ddfaf
+  checksum: 10/e7633db4e3f170e747ef5f2c9433cb0cca13c785d59060444e6e7de2ae8e657249484b9633f65a257342cca14313ba74a1daea0e4c0b81091a2e3011e4e8f267
   languageName: node
   linkType: hard
 
