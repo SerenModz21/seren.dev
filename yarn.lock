@@ -135,14 +135,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@astrojs/sitemap@npm:^3.5.0":
-  version: 3.5.0
-  resolution: "@astrojs/sitemap@npm:3.5.0"
+"@astrojs/sitemap@npm:^3.5.1":
+  version: 3.5.1
+  resolution: "@astrojs/sitemap@npm:3.5.1"
   dependencies:
     sitemap: "npm:^8.0.0"
     stream-replace-string: "npm:^2.0.0"
     zod: "npm:^3.24.4"
-  checksum: 10/712eae4702ec09643b62a28900f432d8d454d23e1bcfc56997457a224f9416d459c18262f9ed912a97e38fec5903aee97b27f34bf53eb036ff7dbc541a6ad799
+  checksum: 10/0a4d4070f21835d14e2684112c437dceb68346bf1a6e713d08cfefbd2f088d6d686fc2b92c4a1dd33d2d12a1b6d58732c3a4cc734384274cd5b68687c3af68e9
   languageName: node
   linkType: hard
 
@@ -2110,12 +2110,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:^19.1.10":
-  version: 19.1.10
-  resolution: "@types/react@npm:19.1.10"
+"@types/react@npm:^19.1.11":
+  version: 19.1.11
+  resolution: "@types/react@npm:19.1.11"
   dependencies:
     csstype: "npm:^3.0.2"
-  checksum: 10/2c2f98e4a36144cddc9300483d0b14a0721dbb3b2fc2242e3841391589570dd344cde0c901eb291dba597a8efdb70543b0dbbae6cc2bef2061eb185c4ca55522
+  checksum: 10/a9b8356783a5dd7f37803b9e4021610fe479186d1b8ee9c0c67a0f2f91b853e142349c913d39fd05af77065eb67f098b9b216214d82cdacf99c1589e04ed0d64
   languageName: node
   linkType: hard
 
@@ -2388,9 +2388,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"astro@npm:^5.13.2":
-  version: 5.13.2
-  resolution: "astro@npm:5.13.2"
+"astro@npm:^5.13.3":
+  version: 5.13.3
+  resolution: "astro@npm:5.13.3"
   dependencies:
     "@astrojs/compiler": "npm:^2.12.2"
     "@astrojs/internal-helpers": "npm:0.7.2"
@@ -2460,7 +2460,7 @@ __metadata:
       optional: true
   bin:
     astro: astro.js
-  checksum: 10/78a60821f5ff4069d9d65d22183c5999f7e7265071170a33a2d8667bbd814af128d7b33e977c253901999cb293fd574b4a5cbe52593aad2347086194c41b82a8
+  checksum: 10/336c3e6f67bb5f30f9575c8e3b3ad3c88f360cb6d04c421c1122db5ac959078fdf1681b3313598938efcca37f584650564f48837cdf8bcac2808a05c04a14c43
   languageName: node
   linkType: hard
 
@@ -4216,12 +4216,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lucide-react@npm:^0.539.0":
-  version: 0.539.0
-  resolution: "lucide-react@npm:0.539.0"
+"lucide-react@npm:^0.541.0":
+  version: 0.541.0
+  resolution: "lucide-react@npm:0.541.0"
   peerDependencies:
     react: ^16.5.1 || ^17.0.0 || ^18.0.0 || ^19.0.0
-  checksum: 10/011e0ef4a3c3c776d908d938b9b7701e8c0b7c6d86237c83a14219100297c064454fd06f2512448afec498df762ffaae607669f305975aa9f6f12dd257b5d700
+  checksum: 10/5e6c35b881b904275b22daae8b16663793cf02de7224e4115ada28290c7fd2685f99a0f3fe0c41363651254041c7b9a688da5ef4f1bb831409ea89511a36ebd3
   languageName: node
   linkType: hard
 
@@ -5889,19 +5889,19 @@ __metadata:
   dependencies:
     "@astrojs/check": "npm:^0.9.4"
     "@astrojs/react": "npm:^4.3.0"
-    "@astrojs/sitemap": "npm:^3.5.0"
+    "@astrojs/sitemap": "npm:^3.5.1"
     "@commitlint/cli": "npm:^19.8.1"
     "@commitlint/config-conventional": "npm:^19.8.1"
     "@octokit/rest": "npm:^22.0.0"
     "@radix-ui/react-dialog": "npm:^1.1.15"
     "@radix-ui/react-slot": "npm:^1.2.3"
     "@tailwindcss/vite": "npm:^4.1.12"
-    "@types/react": "npm:^19.1.10"
+    "@types/react": "npm:^19.1.11"
     "@types/react-dom": "npm:^19.1.7"
-    astro: "npm:^5.13.2"
+    astro: "npm:^5.13.3"
     class-variance-authority: "npm:^0.7.1"
     clsx: "npm:^2.1.1"
-    lucide-react: "npm:^0.539.0"
+    lucide-react: "npm:^0.541.0"
     prettier: "npm:^3.6.2"
     prettier-plugin-astro: "npm:^0.14.1"
     prettier-plugin-tailwindcss: "npm:^0.6.11"
