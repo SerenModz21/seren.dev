@@ -2101,21 +2101,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-dom@npm:^19.1.7":
-  version: 19.1.7
-  resolution: "@types/react-dom@npm:19.1.7"
+"@types/react-dom@npm:^19.1.9":
+  version: 19.1.9
+  resolution: "@types/react-dom@npm:19.1.9"
   peerDependencies:
     "@types/react": ^19.0.0
-  checksum: 10/a99465e5a17d40725dedb3708357f8998c57caab768cee0992b4bb7822ce7ed2ec697a5f426cb98d3397b020756a6e4b0986dc5f6f4254e13b3536afb38538e6
+  checksum: 10/207acb79f6c3c9704938138960e21429efdf2db2184f17c166e8ec3f3180dfe6445b282c5302f559a71b2d09ab2fafef7735f3d24fd01cda4e5c7bf0cea1d5b9
   languageName: node
   linkType: hard
 
-"@types/react@npm:^19.1.11":
-  version: 19.1.11
-  resolution: "@types/react@npm:19.1.11"
+"@types/react@npm:^19.1.12":
+  version: 19.1.12
+  resolution: "@types/react@npm:19.1.12"
   dependencies:
     csstype: "npm:^3.0.2"
-  checksum: 10/a9b8356783a5dd7f37803b9e4021610fe479186d1b8ee9c0c67a0f2f91b853e142349c913d39fd05af77065eb67f098b9b216214d82cdacf99c1589e04ed0d64
+  checksum: 10/c03d595b84faecb15079757555c96871e84ea6eef9a5eddb13ec1f648f718f9624bebc4199e86267edb825b23df97758324ea39ff840d9ad328386f96971f588
   languageName: node
   linkType: hard
 
@@ -2388,9 +2388,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"astro@npm:^5.13.3":
-  version: 5.13.3
-  resolution: "astro@npm:5.13.3"
+"astro@npm:^5.13.5":
+  version: 5.13.5
+  resolution: "astro@npm:5.13.5"
   dependencies:
     "@astrojs/compiler": "npm:^2.12.2"
     "@astrojs/internal-helpers": "npm:0.7.2"
@@ -2460,7 +2460,7 @@ __metadata:
       optional: true
   bin:
     astro: astro.js
-  checksum: 10/336c3e6f67bb5f30f9575c8e3b3ad3c88f360cb6d04c421c1122db5ac959078fdf1681b3313598938efcca37f584650564f48837cdf8bcac2808a05c04a14c43
+  checksum: 10/b6fd7b1b1654625936f319028ab5793ea2f4224f7c5fb482b208acaf2cee218d71465acf585db98d56bf9253bec25c4f6ae2c94559db1a57df59ec62d126ddf1
   languageName: node
   linkType: hard
 
@@ -4216,12 +4216,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lucide-react@npm:^0.541.0":
-  version: 0.541.0
-  resolution: "lucide-react@npm:0.541.0"
+"lucide-react@npm:^0.542.0":
+  version: 0.542.0
+  resolution: "lucide-react@npm:0.542.0"
   peerDependencies:
     react: ^16.5.1 || ^17.0.0 || ^18.0.0 || ^19.0.0
-  checksum: 10/5e6c35b881b904275b22daae8b16663793cf02de7224e4115ada28290c7fd2685f99a0f3fe0c41363651254041c7b9a688da5ef4f1bb831409ea89511a36ebd3
+  checksum: 10/33a846d66ecf02332a75b4120f65cb5f7c025edf1591b11105392f81c20028674f6d0ef48152b2ff0700f2805d656b93abf7a308bba49abb6a801d4b87949319
   languageName: node
   linkType: hard
 
@@ -5896,19 +5896,19 @@ __metadata:
     "@radix-ui/react-dialog": "npm:^1.1.15"
     "@radix-ui/react-slot": "npm:^1.2.3"
     "@tailwindcss/vite": "npm:^4.1.12"
-    "@types/react": "npm:^19.1.11"
-    "@types/react-dom": "npm:^19.1.7"
-    astro: "npm:^5.13.3"
+    "@types/react": "npm:^19.1.12"
+    "@types/react-dom": "npm:^19.1.9"
+    astro: "npm:^5.13.5"
     class-variance-authority: "npm:^0.7.1"
     clsx: "npm:^2.1.1"
-    lucide-react: "npm:^0.541.0"
+    lucide-react: "npm:^0.542.0"
     prettier: "npm:^3.6.2"
     prettier-plugin-astro: "npm:^0.14.1"
     prettier-plugin-tailwindcss: "npm:^0.6.11"
     pretty-quick: "npm:^4.2.2"
     react: "npm:^19.1.1"
     react-dom: "npm:^19.1.1"
-    simple-icons-astro: "npm:^15.12.0"
+    simple-icons-astro: "npm:^15.13.0"
     tailwind-merge: "npm:^3.3.1"
     tailwindcss: "npm:^4.1.12"
     tailwindcss-animate: "npm:^1.0.7"
@@ -6024,12 +6024,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"simple-icons-astro@npm:^15.12.0":
-  version: 15.12.0
-  resolution: "simple-icons-astro@npm:15.12.0"
+"simple-icons-astro@npm:^15.13.0":
+  version: 15.13.0
+  resolution: "simple-icons-astro@npm:15.13.0"
   peerDependencies:
     astro: ">=2.7.1"
-  checksum: 10/28560ac7313b364eb1eb634648b69fd371bb05ce5e11610ed32c28e2de165e298edabf072f0ce0671b56fc010b9c1070a7fc581b43bd72e6b8c9a1e6b0592808
+  checksum: 10/e1dc8c4cbf3c89cc176fe61d12aafb959cbc6da80d54d8a9d5b854562a449450f33e1d5a6f4c5cedabec595b8c1444714a9c08bcaf0828b5ee22463eea27689f
   languageName: node
   linkType: hard
 
