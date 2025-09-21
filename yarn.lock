@@ -125,14 +125,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@astrojs/sitemap@npm:^3.5.1":
-  version: 3.5.1
-  resolution: "@astrojs/sitemap@npm:3.5.1"
+"@astrojs/sitemap@npm:^3.6.0":
+  version: 3.6.0
+  resolution: "@astrojs/sitemap@npm:3.6.0"
   dependencies:
     sitemap: "npm:^8.0.0"
     stream-replace-string: "npm:^2.0.0"
-    zod: "npm:^3.24.4"
-  checksum: 10/0a4d4070f21835d14e2684112c437dceb68346bf1a6e713d08cfefbd2f088d6d686fc2b92c4a1dd33d2d12a1b6d58732c3a4cc734384274cd5b68687c3af68e9
+    zod: "npm:^3.25.76"
+  checksum: 10/2f0c84ef51203e03575e9b1926a5d52006db0d982e76d4223e1091c12200a07b5a0d314d587ed57a0501ffdfc9773b6bcc2879d5fed0c8affa1dedc5c516cd7a
   languageName: node
   linkType: hard
 
@@ -2411,9 +2411,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"astro@npm:^5.13.7":
-  version: 5.13.7
-  resolution: "astro@npm:5.13.7"
+"astro@npm:^5.13.9":
+  version: 5.13.9
+  resolution: "astro@npm:5.13.9"
   dependencies:
     "@astrojs/compiler": "npm:^2.12.2"
     "@astrojs/internal-helpers": "npm:0.7.2"
@@ -2433,7 +2433,7 @@ __metadata:
     cssesc: "npm:^3.0.0"
     debug: "npm:^4.4.1"
     deterministic-object-hash: "npm:^2.0.2"
-    devalue: "npm:^5.1.1"
+    devalue: "npm:^5.3.2"
     diff: "npm:^5.2.0"
     dlv: "npm:^1.1.3"
     dset: "npm:^3.1.4"
@@ -2483,7 +2483,7 @@ __metadata:
       optional: true
   bin:
     astro: astro.js
-  checksum: 10/fd19f5062fce16a58bc4604a02dd5d0c5aad3a7b1a5c87f302a789a46806eee2145b018af3044612d2b05e38e4c6c4058574280ed3559501430d7d372421e090
+  checksum: 10/277a783294f430379d36648bf1a5bd196dfbdcd03ca72a3ee55524cd9b26305c3cbdb93ed2ab7cb87a2494b3100871504f2c97ac460187e61311fee86ab3cf5c
   languageName: node
   linkType: hard
 
@@ -3003,10 +3003,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"devalue@npm:^5.1.1":
-  version: 5.1.1
-  resolution: "devalue@npm:5.1.1"
-  checksum: 10/ff36fe61af61636419eb16692d2fe43d793cdfb17f868bb3560c5485e4c25bc38d472304e61efdec6e806a3c4b450c46247decf59968b4a05ddc7714ea64f885
+"devalue@npm:^5.3.2":
+  version: 5.3.2
+  resolution: "devalue@npm:5.3.2"
+  checksum: 10/2e15e9ed6844e86f1d086088c0f51e447e2300ee385ace02acca4691563ca13e5d0f5445603afc52653609078039c9dad69bd8204dadfac0919fe1ef65f08a88
   languageName: node
   linkType: hard
 
@@ -5905,7 +5905,7 @@ __metadata:
   dependencies:
     "@astrojs/check": "npm:^0.9.4"
     "@astrojs/react": "npm:^4.3.1"
-    "@astrojs/sitemap": "npm:^3.5.1"
+    "@astrojs/sitemap": "npm:^3.6.0"
     "@commitlint/cli": "npm:^19.8.1"
     "@commitlint/config-conventional": "npm:^19.8.1"
     "@octokit/rest": "npm:^22.0.0"
@@ -5914,7 +5914,7 @@ __metadata:
     "@tailwindcss/vite": "npm:^4.1.13"
     "@types/react": "npm:^19.1.13"
     "@types/react-dom": "npm:^19.1.9"
-    astro: "npm:^5.13.7"
+    astro: "npm:^5.13.9"
     class-variance-authority: "npm:^0.7.1"
     clsx: "npm:^2.1.1"
     lucide-react: "npm:^0.544.0"
@@ -7306,7 +7306,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"zod@npm:^3.24.4, zod@npm:^3.25.76":
+"zod@npm:^3.25.76":
   version: 3.25.76
   resolution: "zod@npm:3.25.76"
   checksum: 10/f0c963ec40cd96858451d1690404d603d36507c1fc9682f2dae59ab38b578687d542708a7fdbf645f77926f78c9ed558f57c3d3aa226c285f798df0c4da16995
