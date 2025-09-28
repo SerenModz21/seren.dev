@@ -28,10 +28,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@astrojs/internal-helpers@npm:0.7.2":
-  version: 0.7.2
-  resolution: "@astrojs/internal-helpers@npm:0.7.2"
-  checksum: 10/70e11b51eca9999414c52706a20f8bf0a892d5d54cb2f2350e1c40af563a010f834939cefc603b076e0abf5067a1b128e07085aed484770714359da756ee5828
+"@astrojs/internal-helpers@npm:0.7.3":
+  version: 0.7.3
+  resolution: "@astrojs/internal-helpers@npm:0.7.3"
+  checksum: 10/cb3439ece9bd70eb3208798bdeb1b6da02ce5e41047732fa0a116f6825bd9ecdebbf171596778fac04d58fe2c5b9d0d81773b9b4e1fcb52ce5488c468f0637cd
   languageName: node
   linkType: hard
 
@@ -71,16 +71,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@astrojs/markdown-remark@npm:6.3.6":
-  version: 6.3.6
-  resolution: "@astrojs/markdown-remark@npm:6.3.6"
+"@astrojs/markdown-remark@npm:6.3.7":
+  version: 6.3.7
+  resolution: "@astrojs/markdown-remark@npm:6.3.7"
   dependencies:
-    "@astrojs/internal-helpers": "npm:0.7.2"
+    "@astrojs/internal-helpers": "npm:0.7.3"
     "@astrojs/prism": "npm:3.3.0"
     github-slugger: "npm:^2.0.0"
     hast-util-from-html: "npm:^2.0.3"
     hast-util-to-text: "npm:^4.0.2"
-    import-meta-resolve: "npm:^4.1.0"
+    import-meta-resolve: "npm:^4.2.0"
     js-yaml: "npm:^4.1.0"
     mdast-util-definitions: "npm:^6.0.0"
     rehype-raw: "npm:^7.0.0"
@@ -89,14 +89,14 @@ __metadata:
     remark-parse: "npm:^11.0.0"
     remark-rehype: "npm:^11.1.2"
     remark-smartypants: "npm:^3.0.2"
-    shiki: "npm:^3.2.1"
-    smol-toml: "npm:^1.3.4"
+    shiki: "npm:^3.12.2"
+    smol-toml: "npm:^1.4.2"
     unified: "npm:^11.0.5"
     unist-util-remove-position: "npm:^5.0.0"
     unist-util-visit: "npm:^5.0.0"
     unist-util-visit-parents: "npm:^6.0.1"
     vfile: "npm:^6.0.3"
-  checksum: 10/b0f337ef876ce32b679c2d0a9abe40ccad4b361a9aa952ec2aa1ca263fbeaff9dcfe2c2f8ae7735d05081234950a74918205615e9e50d34b64c7c69ab75b6f40
+  checksum: 10/d6a659608bc9ed53af9edb54c9b49993e22f538fe81f84eede0778122d47654ad899263ef4bc5628f1034c8faf72f4136ead7fda609b3a024fa8fac7b1df3d22
   languageName: node
   linkType: hard
 
@@ -109,9 +109,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@astrojs/react@npm:^4.3.1":
-  version: 4.3.1
-  resolution: "@astrojs/react@npm:4.3.1"
+"@astrojs/react@npm:^4.4.0":
+  version: 4.4.0
+  resolution: "@astrojs/react@npm:4.4.0"
   dependencies:
     "@vitejs/plugin-react": "npm:^4.7.0"
     ultrahtml: "npm:^1.6.0"
@@ -121,7 +121,7 @@ __metadata:
     "@types/react-dom": ^17.0.17 || ^18.0.6 || ^19.0.0
     react: ^17.0.2 || ^18.0.0 || ^19.0.0
     react-dom: ^17.0.2 || ^18.0.0 || ^19.0.0
-  checksum: 10/b497c477696b641e694fca48ce1609260f7b72aaacafcec25259e61f1f39b0886198fdcb9a2d605c478fc472dd73f09891a0b8458023305bd649cb47599cd3a9
+  checksum: 10/bf8f3c346b8e5b25ce940f79598f2386b6135d160c67be080d576711209b60a2528f512f8bab04e3d1647b20887b7e454e70d7715674e6aaa927368eb8318a88
   languageName: node
   linkType: hard
 
@@ -1746,64 +1746,64 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@shikijs/core@npm:3.12.2":
-  version: 3.12.2
-  resolution: "@shikijs/core@npm:3.12.2"
+"@shikijs/core@npm:3.13.0":
+  version: 3.13.0
+  resolution: "@shikijs/core@npm:3.13.0"
   dependencies:
-    "@shikijs/types": "npm:3.12.2"
+    "@shikijs/types": "npm:3.13.0"
     "@shikijs/vscode-textmate": "npm:^10.0.2"
     "@types/hast": "npm:^3.0.4"
     hast-util-to-html: "npm:^9.0.5"
-  checksum: 10/fde03fbf94470c69b739c8416667211f63928c8cfa7df387f168da2150d9415dc1df8a48aeb8e0d1e015c16fd8784c94a6ede403ca54fb60022a318ec4cd2b24
+  checksum: 10/c9b301a170cd76fa2ce446adee26b539b19204107a2e60207f3f5e7d96773df322367f6035e2d689d43f97a3e9f741793e976c366015d8e3a9709dcac1399af2
   languageName: node
   linkType: hard
 
-"@shikijs/engine-javascript@npm:3.12.2":
-  version: 3.12.2
-  resolution: "@shikijs/engine-javascript@npm:3.12.2"
+"@shikijs/engine-javascript@npm:3.13.0":
+  version: 3.13.0
+  resolution: "@shikijs/engine-javascript@npm:3.13.0"
   dependencies:
-    "@shikijs/types": "npm:3.12.2"
+    "@shikijs/types": "npm:3.13.0"
     "@shikijs/vscode-textmate": "npm:^10.0.2"
     oniguruma-to-es: "npm:^4.3.3"
-  checksum: 10/a9504b9146a135f9254b79050307c0629b4d3cadd1ca956e998fb58cf70b7c3f6dd5ce91cce84ec864e9c6dff79720c64f474949cdb885ef92a09c74d752f07c
+  checksum: 10/acd4e78fdc732738c6a3a9f254011b7d8995a2149f2f72f7396d5e4514f3b0c3fdc767d52bf8852d65066e613dd8d1157bc4900442ab42684db7ef7396a44871
   languageName: node
   linkType: hard
 
-"@shikijs/engine-oniguruma@npm:3.12.2":
-  version: 3.12.2
-  resolution: "@shikijs/engine-oniguruma@npm:3.12.2"
+"@shikijs/engine-oniguruma@npm:3.13.0":
+  version: 3.13.0
+  resolution: "@shikijs/engine-oniguruma@npm:3.13.0"
   dependencies:
-    "@shikijs/types": "npm:3.12.2"
+    "@shikijs/types": "npm:3.13.0"
     "@shikijs/vscode-textmate": "npm:^10.0.2"
-  checksum: 10/5a08c7207b13f307b7c308252b3cc96a7bfd97ce2eba5ed3d0f9cdf52722675e6c969dd4fec2166bbad8d1eb25b7a8a6b6a16bd17c96a6789860262312c37c17
+  checksum: 10/bc7f1c69640ccece9a3ac3f3adc9cebde9c24bcd722747cc464c338a32725af2b9087a42646cd0f56fbea98d99414918c558f2ca0beadc13db0a740183e7707f
   languageName: node
   linkType: hard
 
-"@shikijs/langs@npm:3.12.2":
-  version: 3.12.2
-  resolution: "@shikijs/langs@npm:3.12.2"
+"@shikijs/langs@npm:3.13.0":
+  version: 3.13.0
+  resolution: "@shikijs/langs@npm:3.13.0"
   dependencies:
-    "@shikijs/types": "npm:3.12.2"
-  checksum: 10/4628e789b78b091005265c947bca8280bd99ba08d1679082a5ca2089ebb9404e3c364f79fc084dad6aecb89ff6548245f61441d922e4e5e581c86ae7af43790e
+    "@shikijs/types": "npm:3.13.0"
+  checksum: 10/2a0478246ce61745d9012cf5051c9790ef5afad6c89fe5716be4a81d04d7dfd9ffc90af0bad0be0061111bfc001a3bc0c55ffd4fc0b82bc1c09a4c33d7b593ca
   languageName: node
   linkType: hard
 
-"@shikijs/themes@npm:3.12.2":
-  version: 3.12.2
-  resolution: "@shikijs/themes@npm:3.12.2"
+"@shikijs/themes@npm:3.13.0":
+  version: 3.13.0
+  resolution: "@shikijs/themes@npm:3.13.0"
   dependencies:
-    "@shikijs/types": "npm:3.12.2"
-  checksum: 10/4a07a38f82cb96c29fe8851b6251e8c1e14fd6b08eb29e2672208f97d9302599a8c0020f5c27bded52a93291eb3a1e3cbdb5488c615a91112e78706d4055c807
+    "@shikijs/types": "npm:3.13.0"
+  checksum: 10/4ab0ecf1ddb35e387cef22e267cdf3ed7548a84f24ad58885d19401f75cc01a5a10152ee0196222e01cead8202f20012615aa0076f798599f7dfc2bb7beaa617
   languageName: node
   linkType: hard
 
-"@shikijs/types@npm:3.12.2":
-  version: 3.12.2
-  resolution: "@shikijs/types@npm:3.12.2"
+"@shikijs/types@npm:3.13.0":
+  version: 3.13.0
+  resolution: "@shikijs/types@npm:3.13.0"
   dependencies:
     "@shikijs/vscode-textmate": "npm:^10.0.2"
     "@types/hast": "npm:^3.0.4"
-  checksum: 10/1095e6725826513baf42c121e2fd8ee4ff54ebd703e63b29a69f3cb0a65eaf04f445d553eb937ff345ffe5729508ca76475a1cc48c59f7226e9a509219579aea
+  checksum: 10/a57cc95847edd84134166de1f11a044e356581834b2dfd75dcd67f2221aef6f20f505839c090a76b7c8e0a79d7d5cee829de50d261f363a633ae9afca29546c4
   languageName: node
   linkType: hard
 
@@ -2132,12 +2132,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:^19.1.13":
-  version: 19.1.13
-  resolution: "@types/react@npm:19.1.13"
+"@types/react@npm:^19.1.14":
+  version: 19.1.14
+  resolution: "@types/react@npm:19.1.14"
   dependencies:
     csstype: "npm:^3.0.2"
-  checksum: 10/a4e12df335ded76e931cc2ba2a4c8a61872ed840081eca83612fbdadc4afbf0cbd0ae31fdedc7fae7f0e02c90dac98dda517dfa73bec653dd4b1de2755431a62
+  checksum: 10/080368cf7c8963f6a80c9bb8530d6f2e7f1b53ac48cc83aa98b67fbd91c8126435e11a2e95e0cc7275677f0bb0fb92789b7240e3d21c3eab75f5874d153addda
   languageName: node
   linkType: hard
 
@@ -2411,13 +2411,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"astro@npm:^5.13.9":
-  version: 5.13.9
-  resolution: "astro@npm:5.13.9"
+"astro@npm:^5.14.1":
+  version: 5.14.1
+  resolution: "astro@npm:5.14.1"
   dependencies:
     "@astrojs/compiler": "npm:^2.12.2"
-    "@astrojs/internal-helpers": "npm:0.7.2"
-    "@astrojs/markdown-remark": "npm:6.3.6"
+    "@astrojs/internal-helpers": "npm:0.7.3"
+    "@astrojs/markdown-remark": "npm:6.3.7"
     "@astrojs/telemetry": "npm:3.3.0"
     "@capsizecss/unpack": "npm:^2.4.0"
     "@oslojs/encoding": "npm:^1.1.0"
@@ -2483,7 +2483,7 @@ __metadata:
       optional: true
   bin:
     astro: astro.js
-  checksum: 10/277a783294f430379d36648bf1a5bd196dfbdcd03ca72a3ee55524cd9b26305c3cbdb93ed2ab7cb87a2494b3100871504f2c97ac460187e61311fee86ab3cf5c
+  checksum: 10/1352ffd0688b06b1a2c610d63403e4f6decfb10668a7ca31fc5d1590bed4913a3091fdb6a44ddc7c46266119e8c768ac2d99d3d04dffa61d18312821d47e29da
   languageName: node
   linkType: hard
 
@@ -3751,7 +3751,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"import-meta-resolve@npm:^4.0.0, import-meta-resolve@npm:^4.1.0, import-meta-resolve@npm:^4.2.0":
+"import-meta-resolve@npm:^4.0.0, import-meta-resolve@npm:^4.2.0":
   version: 4.2.0
   resolution: "import-meta-resolve@npm:4.2.0"
   checksum: 10/3499ee8b7eddb79be77067b368bcdf39e6f144306dea4686d08071ae7e65a2e3bdca3f98f2a0f4babdcd4ba9d9e7d379ae7e27c4b9bf8b08c1e812a28c674bf3
@@ -5904,7 +5904,7 @@ __metadata:
   resolution: "seren.dev@workspace:."
   dependencies:
     "@astrojs/check": "npm:^0.9.4"
-    "@astrojs/react": "npm:^4.3.1"
+    "@astrojs/react": "npm:^4.4.0"
     "@astrojs/sitemap": "npm:^3.6.0"
     "@commitlint/cli": "npm:^19.8.1"
     "@commitlint/config-conventional": "npm:^19.8.1"
@@ -5912,9 +5912,9 @@ __metadata:
     "@radix-ui/react-dialog": "npm:^1.1.15"
     "@radix-ui/react-slot": "npm:^1.2.3"
     "@tailwindcss/vite": "npm:^4.1.13"
-    "@types/react": "npm:^19.1.13"
+    "@types/react": "npm:^19.1.14"
     "@types/react-dom": "npm:^19.1.9"
-    astro: "npm:^5.13.9"
+    astro: "npm:^5.14.1"
     class-variance-authority: "npm:^0.7.1"
     clsx: "npm:^2.1.1"
     lucide-react: "npm:^0.544.0"
@@ -5924,7 +5924,7 @@ __metadata:
     pretty-quick: "npm:^4.2.2"
     react: "npm:^19.1.1"
     react-dom: "npm:^19.1.1"
-    simple-icons-astro: "npm:^15.15.0"
+    simple-icons-astro: "npm:^15.16.0"
     tailwind-merge: "npm:^3.3.1"
     tailwindcss: "npm:^4.1.13"
     tailwindcss-animate: "npm:^1.0.7"
@@ -6026,19 +6026,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"shiki@npm:^3.12.0, shiki@npm:^3.2.1":
-  version: 3.12.2
-  resolution: "shiki@npm:3.12.2"
+"shiki@npm:^3.12.0, shiki@npm:^3.12.2":
+  version: 3.13.0
+  resolution: "shiki@npm:3.13.0"
   dependencies:
-    "@shikijs/core": "npm:3.12.2"
-    "@shikijs/engine-javascript": "npm:3.12.2"
-    "@shikijs/engine-oniguruma": "npm:3.12.2"
-    "@shikijs/langs": "npm:3.12.2"
-    "@shikijs/themes": "npm:3.12.2"
-    "@shikijs/types": "npm:3.12.2"
+    "@shikijs/core": "npm:3.13.0"
+    "@shikijs/engine-javascript": "npm:3.13.0"
+    "@shikijs/engine-oniguruma": "npm:3.13.0"
+    "@shikijs/langs": "npm:3.13.0"
+    "@shikijs/themes": "npm:3.13.0"
+    "@shikijs/types": "npm:3.13.0"
     "@shikijs/vscode-textmate": "npm:^10.0.2"
     "@types/hast": "npm:^3.0.4"
-  checksum: 10/c982fcd72015cf733b117c2bf15d10403d5ce6f49ddb2a1f0515bf036681f4edefd58afb19149818428cf83977eda166f1f3794c74d289519c8a5824348e2840
+  checksum: 10/8d7cd039ac8df548f724047b4ba81cd84c09e8b96f411eb7c781d3d105c96ff2ec6f64e1bac724fd6fc56ac2926322bc2466124ea279d04c5ef668d5a04219bb
   languageName: node
   linkType: hard
 
@@ -6049,12 +6049,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"simple-icons-astro@npm:^15.15.0":
-  version: 15.15.0
-  resolution: "simple-icons-astro@npm:15.15.0"
+"simple-icons-astro@npm:^15.16.0":
+  version: 15.16.0
+  resolution: "simple-icons-astro@npm:15.16.0"
   peerDependencies:
     astro: ">=2.7.1"
-  checksum: 10/38f43a99cff4d8eaf2c8e78a428f6ec7d1d2faabee53df4b6c6e6108aa4e7be28f02e6ffab1a98c3ea4567bf476273e6a38e6db47a77df642b19821c60853889
+  checksum: 10/449edfcad9ec4bd89a860c92da7f77406d5a196ce3173a4911194bce7f67cf7613c583e76285e1cd64d63658756499ed3d5883fbc7f15cf34ec67b2fb1887385
   languageName: node
   linkType: hard
 
@@ -6095,7 +6095,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"smol-toml@npm:^1.3.4, smol-toml@npm:^1.4.2":
+"smol-toml@npm:^1.4.2":
   version: 1.4.2
   resolution: "smol-toml@npm:1.4.2"
   checksum: 10/00c3c45859b44a8a9624cd15d4210c1b85dfa27cf432ade832d7c8a4ee96a79c415594cafe42a6708299de57d3b56e74e645396a0e0e1076f8f7b6302a5520b3
