@@ -2121,12 +2121,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-dom@npm:^19.2.1":
-  version: 19.2.1
-  resolution: "@types/react-dom@npm:19.2.1"
+"@types/react-dom@npm:^19.2.2":
+  version: 19.2.2
+  resolution: "@types/react-dom@npm:19.2.2"
   peerDependencies:
     "@types/react": ^19.2.0
-  checksum: 10/273730069d34e8ba6e5261b968cc24c148cac98a017241aa8e87186a5d446c3afd4d98ceffa6be8ea2c2e96e9d2fb6450fbae5094ee2221d2a0b40f4b58cfb53
+  checksum: 10/73d5671e57ab73cb3f2acd7992faee8f90d5b4d155b972e76e91fa13e5871ebb5e224960b05039d57ea502cb3370746eb98beda5fa44e9712b4aee52653c237a
   languageName: node
   linkType: hard
 
@@ -2409,9 +2409,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"astro@npm:^5.14.4":
-  version: 5.14.4
-  resolution: "astro@npm:5.14.4"
+"astro@npm:^5.14.6":
+  version: 5.14.6
+  resolution: "astro@npm:5.14.6"
   dependencies:
     "@astrojs/compiler": "npm:^2.12.2"
     "@astrojs/internal-helpers": "npm:0.7.4"
@@ -2481,7 +2481,7 @@ __metadata:
       optional: true
   bin:
     astro: astro.js
-  checksum: 10/faf7a2f664b8dead32e410c49a9e50b1b37deb160644bcade504450b1f3b8b1928d38277f42f6de260f31b3eef9a68c0c2f000711606de49534185960cd629f7
+  checksum: 10/f28947ee34a8bdb379d10d4fac2fcde7165b0738d0d1ad91e2aea07a75c5b877d13cf3754613f9c4ecb9ca5ced3d4783440b88b7ac9968db4699b59ce6ae5a31
   languageName: node
   linkType: hard
 
@@ -4214,12 +4214,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lucide-react@npm:^0.545.0":
-  version: 0.545.0
-  resolution: "lucide-react@npm:0.545.0"
+"lucide-react@npm:^0.546.0":
+  version: 0.546.0
+  resolution: "lucide-react@npm:0.546.0"
   peerDependencies:
     react: ^16.5.1 || ^17.0.0 || ^18.0.0 || ^19.0.0
-  checksum: 10/06ce9470c4c5b9d5dd8f9a0cfe2004f281824cdbf3f96f38772f57b6479178aaff66059f2e86190886906ec9115203228020bd044d47a09318c3c10a4532d4ad
+  checksum: 10/9eccf3b9f7b8d82054bcbcec973bf9d867a6e4ca0c244caa334eab27c9dd747bc9009e9ca30c2a5d49386c9cf6664fc1d8e51df1c71baf294c8a71acb81f7296
   languageName: node
   linkType: hard
 
@@ -5872,11 +5872,11 @@ __metadata:
     "@radix-ui/react-slot": "npm:^1.2.3"
     "@tailwindcss/vite": "npm:^4.1.14"
     "@types/react": "npm:^19.2.2"
-    "@types/react-dom": "npm:^19.2.1"
-    astro: "npm:^5.14.4"
+    "@types/react-dom": "npm:^19.2.2"
+    astro: "npm:^5.14.6"
     class-variance-authority: "npm:^0.7.1"
     clsx: "npm:^2.1.1"
-    lucide-react: "npm:^0.545.0"
+    lucide-react: "npm:^0.546.0"
     prettier: "npm:^3.6.2"
     prettier-plugin-astro: "npm:^0.14.1"
     prettier-plugin-tailwindcss: "npm:^0.6.11"
