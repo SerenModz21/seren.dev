@@ -5906,8 +5906,8 @@ __metadata:
     pretty-quick: "npm:^4.2.2"
     react: "npm:^19.2.0"
     react-dom: "npm:^19.2.0"
-    simple-icons-astro: "npm:^15.19.0"
-    tailwind-merge: "npm:^3.3.1"
+    simple-icons-astro: "npm:^15.20.0"
+    tailwind-merge: "npm:^3.4.0"
     tailwindcss: "npm:^4.1.17"
     tailwindcss-animate: "npm:^1.0.7"
     typescript: "npm:^5.9.3"
@@ -6031,12 +6031,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"simple-icons-astro@npm:^15.19.0":
-  version: 15.19.0
-  resolution: "simple-icons-astro@npm:15.19.0"
+"simple-icons-astro@npm:^15.20.0":
+  version: 15.20.0
+  resolution: "simple-icons-astro@npm:15.20.0"
   peerDependencies:
     astro: ">=2.7.1"
-  checksum: 10/2b6e1849e682ded07e50a9eb1a2bb060a539230f4f10f646bf8f3f6f57164c3ad7861fb9686bf9caa68000ac7c4ecb03d6c9a711d71865303dcd799802eecdc9
+  checksum: 10/0d7892480d0b5d7e91693c10d931bdafa5f0a18ff0965fa450c044bff3f348877b635d53e6d6b7911d6592014dea86c80e106882628a4346b14a178c18bb766e
   languageName: node
   linkType: hard
 
@@ -6219,10 +6219,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tailwind-merge@npm:^3.3.1":
-  version: 3.3.1
-  resolution: "tailwind-merge@npm:3.3.1"
-  checksum: 10/ad97f0763afdfdce785b8de50bc546951bb3cc803ab4f809cb10d654d9b7e28b0d19dead70ab9070edf479af68622a5f6ba16a21584fa8c21236855709dc648f
+"tailwind-merge@npm:^3.4.0":
+  version: 3.4.0
+  resolution: "tailwind-merge@npm:3.4.0"
+  checksum: 10/d8caeb40ee3ec0eae2996f8a86d77c82a1751fc9c61a31d6153b4252cb734deaf98d351205aff5c204beee7b73497add8492411e75187acb8506b4d981e4ccc2
   languageName: node
   linkType: hard
 
