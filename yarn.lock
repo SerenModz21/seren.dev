@@ -2422,7 +2422,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"astro@npm:^5.15.8":
+"astro@npm:^5.16.0":
   version: 5.16.0
   resolution: "astro@npm:5.16.0"
   dependencies:
@@ -6018,7 +6018,7 @@ __metadata:
     "@tailwindcss/vite": "npm:^4.1.17"
     "@types/react": "npm:^19.2.6"
     "@types/react-dom": "npm:^19.2.3"
-    astro: "npm:^5.15.8"
+    astro: "npm:^5.16.0"
     class-variance-authority: "npm:^0.7.1"
     clsx: "npm:^2.1.1"
     lucide-react: "npm:^0.554.0"
