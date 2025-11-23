@@ -20,7 +20,7 @@
         "lucide-react": "^0.554.0",
         "react": "^19.2.0",
         "react-dom": "^19.2.0",
-        "simple-icons-astro": "^15.21.0",
+        "simple-icons-astro": "^15.22.0",
         "tailwind-merge": "^3.4.0"
     },
     "devDependencies": {
