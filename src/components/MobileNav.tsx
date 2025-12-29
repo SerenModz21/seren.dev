@@ -1,51 +1,26 @@
-import { useState } from "react";
-import {
-    Sheet,
-    SheetContent,
-    SheetHeader,
-    SheetTitle,
-    SheetTrigger,
-} from "./ui/sheet";
+import { MenuIcon } from "lucide-react";
 import { Button } from "./ui/button";
-import { Menu } from "lucide-react";
+import { Popover, PopoverContent, PopoverTrigger } from "./ui/popover";
+import { navbarLinks } from "~/lib/navigation";
 
-export function MobileNav() {
-    const [open, setOpen] = useState(false);
-
+export default function MobileNav() {
     return (
-        <Sheet open={open} onOpenChange={setOpen}>
-            <SheetTrigger asChild>
+        <Popover>
+            <PopoverTrigger className="group" asChild>
                 <Button variant="ghost" className="w-max md:hidden">
-                    <Menu />
-                    <span className="sr-only">Open mobile nav</span>
+                    <MenuIcon className="transition-transform duration-300 group-data-[state=open]:rotate-90" />
+                    <span className="sr-only">Toggle mobile nav</span>
                 </Button>
-            </SheetTrigger>
-            <SheetContent side="left" aria-describedby={undefined}>
-                <SheetHeader>
-                    <SheetTitle className="text-center">
-                        Seren_Modz 21
-                    </SheetTitle>
-                </SheetHeader>
-                <nav className="mt-4 flex flex-col gap-4">
-                    <a href="/">
-                        <Button variant="ghost" className="w-full">
-                            Home
+            </PopoverTrigger>
+            <PopoverContent className="bg-popover/80 w-screen rounded-none border-x-0 backdrop-blur-lg">
+                <nav className="flex flex-col gap-2">
+                    {navbarLinks.map((link) => (
+                        <Button variant="ghost" asChild>
+                            <a href={link.href}>{link.name}</a>
                         </Button>
-                    </a>
-
-                    <a href="/projects">
-                        <Button variant="ghost" className="w-full">
-                            Projects
-                        </Button>
-                    </a>
-
-                    <a href="/referrals">
-                        <Button variant="ghost" className="w-full">
-                            Referrals
-                        </Button>
-                    </a>
+                    ))}
                 </nav>
-            </SheetContent>
-        </Sheet>
+            </PopoverContent>
+        </Popover>
     );
 }

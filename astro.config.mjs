@@ -9,4 +9,5 @@ export default defineConfig({
     site: "https://seren.dev",
     integrations: [react(), sitemap({ lastmod: new Date() })],
     vite: { plugins: [tailwindcss()] },
+    image: { domains: ["avatars.githubusercontent.com"] },
 });

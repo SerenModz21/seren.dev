@@ -4,7 +4,7 @@ import { Image } from "astro:assets";
 import cat from "../assets/cat-404.svg";
 import PageLayout from "~/layouts/PageLayout.astro";
 import { Button } from "~/components/ui/button";
-import { ArrowLeft, Home } from "lucide-react";
+import { ArrowLeftIcon, HomeIcon } from "lucide-react";
 ---
 
 <PageLayout
@@ -22,18 +22,18 @@ import { ArrowLeft, Home } from "lucide-react";
         </p>
 
         <div class="mt-2 flex gap-4">
-            <a href="/">
-                <Button className="flex items-center gap-2">
-                    <Home className="size-4" />
+            <Button className="flex items-center gap-2" asChild>
+                <a href="/">
+                    <HomeIcon className="size-4" />
                     Home
-                </Button>
-            </a>
+                </a>
+            </Button>
             <Button
                 className="flex items-center gap-2"
                 variant="secondary"
                 id="go-back"
             >
-                <ArrowLeft className="size-4" />
+                <ArrowLeftIcon className="size-4" />
                 Go Back
             </Button>
         </div>

@@ -2,7 +2,7 @@
 import { Button } from "./ui/button";
 import { Image } from "astro:assets";
 import { Card } from "./ui/card";
-import { ExternalLink } from "lucide-react";
+import { ExternalLinkIcon } from "lucide-react";
 
 interface Props {
     url: string;
@@ -36,7 +36,7 @@ const [company] = name.split(" - ");
         <a href={url} target="_blank" rel="noopener noreferrer">
             <Button variant="link" className="cursor-pointer px-0! text-sm">
                 <span>View Referral</span>
-                <ExternalLink />
+                <ExternalLinkIcon />
             </Button>
         </a>
     </div>

@@ -1,5 +1,5 @@
 #!/bin/sh
 
-exec < /dev/tty
+[ -t 1 ] && exec < /dev/tty
 
 yarn commitlint --edit $1

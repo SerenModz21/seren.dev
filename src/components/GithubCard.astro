@@ -7,8 +7,14 @@ import {
     CardHeader,
     CardTitle,
 } from "./ui/card";
-import { Circle, Star, GitFork, ExternalLink } from "lucide-react";
+import {
+    CircleIcon,
+    StarIcon,
+    GitForkIcon,
+    ExternalLinkIcon,
+} from "lucide-react";
 import { Badge } from "./ui/badge";
+import { Image } from "astro:assets";
 
 interface Props {
     repo: Awaited<ReturnType<typeof fetchUserRepos>>[number];
@@ -23,6 +29,7 @@ const languageColours: Record<string, string> = {
     Java: "#b07219",
     Kotlin: "#A97BFF",
     Astro: "#ff5a03",
+    Shell: "#89e051",
 };
 
 const repoLanguageColour = repo.language
@@ -30,28 +37,43 @@ const repoLanguageColour = repo.language
     : null;
 ---
 
-<Card className="overflow-hidden">
-    <CardHeader className="pb-4">
-        <CardTitle
-            className="flex shrink items-center justify-between truncate text-lg"
-        >
-            <a
-                href={repo.html_url}
-                class="inline-flex items-center gap-2 hover:underline"
-                target="_blank"
-                rel="noopener noreferrer"
+<Card className="group overflow-hidden">
+    <CardHeader className="pb-3">
+        <div class="flex flex-col gap-y-1">
+            <div class="flex flex-row items-center gap-1.5">
+                <Image
+                    src={repo.owner.avatar_url}
+                    alt={repo.owner.login}
+                    width={24}
+                    height={24}
+                    class="rounded-full"
+                />
+                <a href={repo.owner.html_url} class="text-xs hover:underline">
+                    {repo.owner.name ?? repo.owner.login}
+                </a>
+                {
+                    repo.archived && (
+                        <Badge variant="destructive" className="ml-auto">
+                            Archived
+                        </Badge>
+                    )
+                }
+            </div>
+            <CardTitle
+                className="flex shrink items-center justify-between truncate text-lg"
             >
-                {repo.full_name}
-                <ExternalLink className="size-4" />
-            </a>
-            {
-                repo.archived && (
-                    <Badge variant="destructive" className="ml-4">
-                        Archived
-                    </Badge>
-                )
-            }
-        </CardTitle>
+                <a
+                    href={repo.html_url}
+                    class="inline-flex items-center gap-2"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <span class="hover:underline">{repo.name}</span>
+                    <ExternalLinkIcon className="size-4" />
+                </a>
+            </CardTitle>
+        </div>
+
         <CardDescription className="h-10 min-h-10 overflow-hidden">
             <p class="line-clamp-2 text-ellipsis">{repo.description}</p>
         </CardDescription>
@@ -61,7 +83,7 @@ const repoLanguageColour = repo.language
             repo.language && (
                 <div class="flex items-center" title="Language">
                     {repoLanguageColour && (
-                        <Circle
+                        <CircleIcon
                             className="mr-1 size-3"
                             style={{
                                 color: repoLanguageColour,
@@ -82,13 +104,13 @@ const repoLanguageColour = repo.language
         }
 
         <div class="flex items-center" title="Stars">
-            <Star className="mr-1 size-3" />
+            <StarIcon className="mr-1 size-3" />
             {repo.stargazers_count}
             <span class="sr-only">Stars</span>
         </div>
 
         <div class="flex items-center" title="Forks">
-            <GitFork className="mr-1 size-3" />
+            <GitForkIcon className="mr-1 size-3" />
             {repo.forks_count}
             <span class="sr-only">Forks</span>
         </div>

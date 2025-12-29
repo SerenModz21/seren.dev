@@ -1,11 +1,11 @@
 ---
 import ThemeToggle from "./ThemeToggle.astro";
 import MainNav from "./MainNav.astro";
-import { MobileNav } from "./MobileNav";
+import MobileNav from "./MobileNav";
 ---
 
 <header
-    class="container flex h-14 w-full flex-row items-center justify-between"
+    class="bg-background/80 sticky top-0 container flex h-14 w-full flex-row items-center justify-between backdrop-blur-lg"
 >
     <MainNav />
     <MobileNav client:visible />

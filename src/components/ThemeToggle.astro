@@ -1,5 +1,5 @@
 ---
-import { Moon, Sun } from "lucide-react";
+import { MoonIcon, SunIcon } from "lucide-react";
 import { Button } from "./ui/button";
 
 type Props = Omit<Parameters<typeof Button>[0], "id" | "title">;
@@ -8,8 +8,8 @@ const props = Astro.props;
 ---
 
 <Button {...props} id="theme-toggle">
-    <Sun className="hidden dark:block" />
-    <Moon className="dark:hidden" />
+    <SunIcon className="hidden dark:block" />
+    <MoonIcon className="dark:hidden" />
     <span class="sr-only">Toggle theme</span>
 </Button>
 

@@ -1,6 +1,6 @@
 #!/bin/sh
 
-exec < /dev/tty
+[ -t 1 ] && exec < /dev/tty
 
 yarn pretty-quick --staged
 git update-index --again
