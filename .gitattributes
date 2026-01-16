@@ -1,7 +1,7 @@
-# Auto line endings
-# credits: https://github.com/PreMiD/Presences/blob/main/.gitattributes
 * text=auto eol=lf
 
-# Marks yarn.lock as generated - https://docs.github.com/en/repositories/working-with-files/managing-files/customizing-how-changed-files-appear-on-github
-# credits: https://github.com/discordjs/discord.js/pull/10159
-yarn.lock linguist-generated=true text=auto eol=lf
+yarn.lock linguist-generated
+.yarn/releases/** binary
+.yarn/plugins/** binary
+
+.vscode/*.json linguist-language=jsonc
