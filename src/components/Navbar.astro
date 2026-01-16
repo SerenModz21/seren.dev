@@ -4,10 +4,10 @@ import MainNav from "./MainNav.astro";
 import MobileNav from "./MobileNav";
 ---
 
-<header
-    class="bg-background/80 sticky top-0 container flex h-14 w-full flex-row items-center justify-between backdrop-blur-lg"
->
-    <MainNav />
-    <MobileNav client:visible />
-    <ThemeToggle variant="ghost" />
-</header>
+<div class="bg-background/80 sticky top-0 flex h-14 w-full backdrop-blur-lg">
+    <header class="container flex items-center justify-between">
+        <MainNav />
+        <MobileNav client:visible />
+        <ThemeToggle variant="ghost" />
+    </header>
+</div>

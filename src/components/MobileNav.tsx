@@ -15,7 +15,7 @@ export default function MobileNav() {
             <PopoverContent className="bg-popover/80 w-screen rounded-none border-x-0 backdrop-blur-lg">
                 <nav className="flex flex-col gap-2">
                     {navbarLinks.map((link) => (
-                        <Button variant="ghost" asChild>
+                        <Button variant="ghost" className="text-lg" asChild>
                             <a href={link.href}>{link.name}</a>
                         </Button>
                     ))}
