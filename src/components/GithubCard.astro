@@ -105,13 +105,13 @@ const repoLanguageColour = repo.language
 
 		<div class="flex items-center" title="Stars">
 			<StarIcon className="mr-1 size-3" />
-			{repo.stargazers_count}
+			<span>{repo.stargazers_count}</span>
 			<span class="sr-only">Stars</span>
 		</div>
 
 		<div class="flex items-center" title="Forks">
 			<GitForkIcon className="mr-1 size-3" />
-			{repo.forks_count}
+			<span>{repo.forks_count}</span>
 			<span class="sr-only">Forks</span>
 		</div>
 	</CardFooter>
