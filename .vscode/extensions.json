@@ -1,13 +1,12 @@
 {
-    "recommendations": [
-        "astro-build.astro-vscode", // Astro
-        "bradlc.vscode-tailwindcss", // Tailwind CSS IntelliSense
-        "quentiumyt.vscode-tailwindcss-directives", // Tailwind CSS directives
-        "sonarsource.sonarlint-vscode", // SonarQube for IDE
-        "yoavbls.pretty-ts-errors", // Pretty TypeScript Errors
-        "esbenp.prettier-vscode", // Prettier - Code formatter
-        "editorconfig.editorconfig", // EditorConfig for VS Code
-        "christian-kohler.npm-intellisense" // npm Intellisense
-    ],
-    "unwantedRecommendations": []
+	"recommendations": [
+		"astro-build.astro-vscode", // Astro
+		"bradlc.vscode-tailwindcss", // Tailwind CSS IntelliSense
+		"quentiumyt.vscode-tailwindcss-directives", // Tailwind CSS directives
+		"sonarsource.sonarlint-vscode", // SonarQube for IDE
+		"yoavbls.pretty-ts-errors", // Pretty TypeScript Errors
+		"esbenp.prettier-vscode", // Prettier - Code formatter
+		"editorconfig.editorconfig" // EditorConfig for VS Code
+	],
+	"unwantedRecommendations": []
 }

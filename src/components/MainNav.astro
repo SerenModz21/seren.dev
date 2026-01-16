@@ -4,21 +4,21 @@ import { cn } from "~/lib/utils";
 ---
 
 <div class="hidden items-center md:flex">
-    <nav class="flex items-center gap-4 text-sm xl:gap-6">
-        {
-            navbarLinks.map((link) => (
-                <a
-                    href={link.href}
-                    class={cn(
-                        "hover:text-foreground/80 transition-colors",
-                        Astro.url.pathname === link.href
-                            ? "text-foreground"
-                            : "text-foreground/60",
-                    )}
-                >
-                    {link.name}
-                </a>
-            ))
-        }
-    </nav>
+	<nav class="flex items-center gap-4 text-sm xl:gap-6">
+		{
+			navbarLinks.map((link) => (
+				<a
+					href={link.href}
+					class={cn(
+						"hover:text-foreground/80 transition-colors",
+						Astro.url.pathname === link.href
+							? "text-foreground"
+							: "text-foreground/60",
+					)}
+				>
+					{link.name}
+				</a>
+			))
+		}
+	</nav>
 </div>

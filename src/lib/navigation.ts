@@ -1,19 +1,19 @@
 export const navbarLinks = [
-    {
-        href: "/",
-        name: "Home",
-    },
-    {
-        href: "/projects/",
-        name: "Projects",
-    },
-    {
-        href: "/referrals/",
-        name: "Referrals",
-    },
+	{
+		href: "/",
+		name: "Home",
+	},
+	{
+		href: "/projects/",
+		name: "Projects",
+	},
+	{
+		href: "/referrals/",
+		name: "Referrals",
+	},
 ] as const satisfies NavbarLink[];
 
 interface NavbarLink {
-    href: string;
-    name: string;
+	href: string;
+	name: string;
 }

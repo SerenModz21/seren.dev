@@ -1,18 +1,18 @@
 {
-    // Editor
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true,
+	// Editor
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.formatOnSave": true,
 
-    // Package Manager
-    "npm.packageManager": "yarn",
+	// Package Manager
+	"npm.packageManager": "yarn",
 
-    // TypeScript
-    "typescript.tsdk": "node_modules/typescript/lib",
-    "typescript.enablePromptUseWorkspaceTsdk": true,
+	// TypeScript
+	"typescript.tsdk": "node_modules/typescript/lib",
+	"typescript.enablePromptUseWorkspaceTsdk": true,
 
-    // SonarQube
-    "sonarlint.connectedMode.project": {
-        "connectionId": "serenmodz21",
-        "projectKey": "SerenModz21_seren.dev"
-    }
+	// SonarQube
+	"sonarlint.connectedMode.project": {
+		"connectionId": "serenmodz21",
+		"projectKey": "SerenModz21_seren.dev"
+	}
 }

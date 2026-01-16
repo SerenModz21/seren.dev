@@ -1,118 +1,118 @@
 ---
 import { fetchUserRepos } from "../lib/github";
 import {
-    Card,
-    CardDescription,
-    CardFooter,
-    CardHeader,
-    CardTitle,
+	Card,
+	CardDescription,
+	CardFooter,
+	CardHeader,
+	CardTitle,
 } from "./ui/card";
 import {
-    CircleIcon,
-    StarIcon,
-    GitForkIcon,
-    ExternalLinkIcon,
+	CircleIcon,
+	StarIcon,
+	GitForkIcon,
+	ExternalLinkIcon,
 } from "lucide-react";
 import { Badge } from "./ui/badge";
 import { Image } from "astro:assets";
 
 interface Props {
-    repo: Awaited<ReturnType<typeof fetchUserRepos>>[number];
+	repo: Awaited<ReturnType<typeof fetchUserRepos>>[number];
 }
 
 const { repo } = Astro.props;
 
 // https://github.com/ozh/github-colors/blob/master/colors.json
 const languageColours: Record<string, string> = {
-    JavaScript: "#f1e05a",
-    TypeScript: "#3178c6",
-    Java: "#b07219",
-    Kotlin: "#A97BFF",
-    Astro: "#ff5a03",
-    Shell: "#89e051",
+	JavaScript: "#f1e05a",
+	TypeScript: "#3178c6",
+	Java: "#b07219",
+	Kotlin: "#A97BFF",
+	Astro: "#ff5a03",
+	Shell: "#89e051",
 };
 
 const repoLanguageColour = repo.language
-    ? languageColours[repo.language]
-    : null;
+	? languageColours[repo.language]
+	: null;
 ---
 
 <Card className="group overflow-hidden">
-    <CardHeader>
-        <div class="flex flex-col gap-y-1">
-            <div class="flex flex-row items-center gap-1.5">
-                <Image
-                    src={repo.owner.avatar_url}
-                    alt={repo.owner.login}
-                    width={24}
-                    height={24}
-                    class="rounded-full"
-                />
-                <a href={repo.owner.html_url} class="text-xs hover:underline">
-                    {repo.owner.name ?? repo.owner.login}
-                </a>
-                {
-                    repo.archived && (
-                        <Badge variant="destructive" className="ml-auto">
-                            Archived
-                        </Badge>
-                    )
-                }
-            </div>
-            <CardTitle
-                className="flex shrink items-center justify-between truncate text-lg"
-            >
-                <a
-                    href={repo.html_url}
-                    class="inline-flex items-center gap-2"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    <span class="hover:underline">{repo.name}</span>
-                    <ExternalLinkIcon className="size-4" />
-                </a>
-            </CardTitle>
-        </div>
+	<CardHeader>
+		<div class="flex flex-col gap-y-1">
+			<div class="flex flex-row items-center gap-1.5">
+				<Image
+					src={repo.owner.avatar_url}
+					alt={repo.owner.login}
+					width={24}
+					height={24}
+					class="rounded-full"
+				/>
+				<a href={repo.owner.html_url} class="text-xs hover:underline">
+					{repo.owner.name ?? repo.owner.login}
+				</a>
+				{
+					repo.archived && (
+						<Badge variant="destructive" className="ml-auto">
+							Archived
+						</Badge>
+					)
+				}
+			</div>
+			<CardTitle
+				className="flex shrink items-center justify-between truncate text-lg"
+			>
+				<a
+					href={repo.html_url}
+					class="inline-flex items-center gap-2"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+					<span class="hover:underline">{repo.name}</span>
+					<ExternalLinkIcon className="size-4" />
+				</a>
+			</CardTitle>
+		</div>
 
-        <CardDescription className="h-14 min-h-10 overflow-y-visible">
-            <p class="line-clamp-3 text-sm text-ellipsis">{repo.description}</p>
-        </CardDescription>
-    </CardHeader>
-    <CardFooter className="text-muted-foreground gap-4 text-xs">
-        {
-            repo.language && (
-                <div class="flex items-center" title="Language">
-                    {repoLanguageColour && (
-                        <CircleIcon
-                            className="mr-1.5 size-3"
-                            style={{
-                                color: repoLanguageColour,
-                                fill: repoLanguageColour,
-                            }}
-                        />
-                    )}
-                    <a
-                        target="_blank"
-                        href={`${repo.html_url}/search?l=${repo.language.toLowerCase()}`}
-                        rel="noopener noreferrer"
-                        class="hover:underline"
-                    >
-                        {repo.language}
-                    </a>
-                </div>
-            )
-        }
+		<CardDescription className="h-14 min-h-10 overflow-y-visible">
+			<p class="line-clamp-3 text-sm text-ellipsis">{repo.description}</p>
+		</CardDescription>
+	</CardHeader>
+	<CardFooter className="text-muted-foreground gap-4 text-xs">
+		{
+			repo.language && (
+				<div class="flex items-center" title="Language">
+					{repoLanguageColour && (
+						<CircleIcon
+							className="mr-1.5 size-3"
+							style={{
+								color: repoLanguageColour,
+								fill: repoLanguageColour,
+							}}
+						/>
+					)}
+					<a
+						target="_blank"
+						href={`${repo.html_url}/search?l=${repo.language.toLowerCase()}`}
+						rel="noopener noreferrer"
+						class="hover:underline"
+					>
+						{repo.language}
+					</a>
+				</div>
+			)
+		}
 
-        <div class="flex items-center" title="Stars">
-            <StarIcon className="mr-1 size-3" />
-            {repo.stargazers_count}
-            <span class="sr-only">Stars</span>
-        </div>
+		<div class="flex items-center" title="Stars">
+			<StarIcon className="mr-1 size-3" />
+			{repo.stargazers_count}
+			<span class="sr-only">Stars</span>
+		</div>
 
-        <div class="flex items-center" title="Forks">
-            <GitForkIcon className="mr-1 size-3" />
-            {repo.forks_count}
-            <span class="sr-only">Forks</span>
-        </div>
-    </CardFooter>
+		<div class="flex items-center" title="Forks">
+			<GitForkIcon className="mr-1 size-3" />
+			{repo.forks_count}
+			<span class="sr-only">Forks</span>
+		</div>
+	</CardFooter>
 </Card>

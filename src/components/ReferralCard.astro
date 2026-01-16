@@ -5,10 +5,10 @@ import { Card } from "./ui/card";
 import { ExternalLinkIcon } from "lucide-react";
 
 interface Props {
-    url: string;
-    name: string;
-    description: string;
-    image?: ImageMetadata;
+	url: string;
+	name: string;
+	description: string;
+	image?: ImageMetadata;
 }
 
 const { url, name, description, image } = Astro.props;
@@ -16,28 +16,28 @@ const [company] = name.split(" - ");
 ---
 
 <Card className="flex flex-col p-6 sm:flex-row">
-    {
-        image && (
-            <Image
-                src={image}
-                alt={`${company} Logo`}
-                height="60"
-                width="60"
-                class="bg-grey-900 mr-6 items-center object-contain"
-            />
-        )
-    }
+	{
+		image && (
+			<Image
+				src={image}
+				alt={`${company} Logo`}
+				height="60"
+				width="60"
+				class="bg-grey-900 mr-6 items-center object-contain"
+			/>
+		)
+	}
 
-    <div>
-        <h2 class="text-lg font-semibold text-balance">{name}</h2>
-        <p class="text-muted-foreground text-sm">
-            {description}
-        </p>
-        <a href={url} target="_blank" rel="noopener noreferrer">
-            <Button variant="link" className="cursor-pointer px-0! text-sm">
-                <span>View Referral</span>
-                <ExternalLinkIcon />
-            </Button>
-        </a>
-    </div>
+	<div>
+		<h2 class="text-lg font-semibold text-balance">{name}</h2>
+		<p class="text-muted-foreground text-sm">
+			{description}
+		</p>
+		<a href={url} target="_blank" rel="noopener noreferrer">
+			<Button variant="link" className="cursor-pointer px-0! text-sm">
+				<span>View Referral</span>
+				<ExternalLinkIcon />
+			</Button>
+		</a>
+	</div>
 </Card>

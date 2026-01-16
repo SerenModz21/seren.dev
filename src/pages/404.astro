@@ -8,34 +8,34 @@ import { ArrowLeftIcon, HouseIcon } from "lucide-react";
 ---
 
 <PageLayout
-    title="Page not found"
-    description="Sorry, the page that you requested couldn't be found."
-    className="flex items-center justify-center"
+	title="Page not found"
+	description="Sorry, the page that you requested couldn't be found."
+	className="flex items-center justify-center"
 >
-    <div class="flex flex-col items-center gap-4 p-2">
-        <Image src={cat} alt="404" height="400" width="400" loading="eager" />
+	<div class="flex flex-col items-center gap-4 p-2">
+		<Image src={cat} alt="404" height="400" width="400" loading="eager" />
 
-        <h1 class="text-4xl font-bold">404</h1>
-        <p class="text-center text-2xl">Sorry, this page couldn't be found.</p>
-        <p class="text-muted-foreground text-center">
-            But dont worry, you can find plenty of other things on the homepage.
-        </p>
+		<h1 class="text-4xl font-bold">404</h1>
+		<p class="text-center text-2xl">Sorry, this page couldn't be found.</p>
+		<p class="text-muted-foreground text-center">
+			But dont worry, you can find plenty of other things on the homepage.
+		</p>
 
-        <div class="mt-2 flex gap-4">
-            <a href="/" class={buttonVariants()}>
-                <HouseIcon className="size-4" />
-                Home
-            </a>
-            <Button variant="secondary" id="go-back">
-                <ArrowLeftIcon className="size-4" />
-                Go Back
-            </Button>
-        </div>
-    </div>
+		<div class="mt-2 flex gap-4">
+			<a href="/" class={buttonVariants()}>
+				<HouseIcon className="size-4" />
+				Home
+			</a>
+			<Button variant="secondary" id="go-back">
+				<ArrowLeftIcon className="size-4" />
+				Go Back
+			</Button>
+		</div>
+	</div>
 </PageLayout>
 
 <script>
-    document.getElementById("go-back")?.addEventListener("click", () => {
-        window.history.back();
-    });
+	document.getElementById("go-back")?.addEventListener("click", () => {
+		window.history.back();
+	});
 </script>

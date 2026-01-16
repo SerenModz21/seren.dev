@@ -8,35 +8,35 @@ const props = Astro.props;
 ---
 
 <Button {...props} id="theme-toggle">
-    <SunIcon className="hidden dark:block" />
-    <MoonIcon className="dark:hidden" />
-    <span class="sr-only">Toggle theme</span>
+	<SunIcon className="hidden dark:block" />
+	<MoonIcon className="dark:hidden" />
+	<span class="sr-only">Toggle theme</span>
 </Button>
 
 <script>
-    const button = document.getElementById("theme-toggle");
-    updateButton(button);
+	const button = document.getElementById("theme-toggle");
+	updateButton(button);
 
-    // must run the button update again because otherwise, the
-    // button will become useless after navigating to another page
-    document.addEventListener("astro:before-swap", ({ newDocument }) => {
-        const button = newDocument.getElementById("theme-toggle");
-        updateButton(button);
-    });
+	// must run the button update again because otherwise, the
+	// button will become useless after navigating to another page
+	document.addEventListener("astro:before-swap", ({ newDocument }) => {
+		const button = newDocument.getElementById("theme-toggle");
+		updateButton(button);
+	});
 
-    function updateButton(button: HTMLElement | null) {
-        if (!button) {
-            return console.warn("Theme Toggle button was not found");
-        }
+	function updateButton(button: HTMLElement | null) {
+		if (!button) {
+			return console.warn("Theme Toggle button was not found");
+		}
 
-        // Toggle the dark class on button click
-        button.addEventListener("click", function () {
-            const out = document.documentElement.classList.toggle("dark");
-            this.title = `Switch to ${out ? "light" : "dark"} mode`;
-        });
+		// Toggle the dark class on button click
+		button.addEventListener("click", function () {
+			const out = document.documentElement.classList.toggle("dark");
+			this.title = `Switch to ${out ? "light" : "dark"} mode`;
+		});
 
-        // Set the title attribute based on the current theme
-        const isDark = document.documentElement.classList.contains("dark");
-        button.title = `Switch to ${isDark ? "light" : "dark"} mode`;
-    }
+		// Set the title attribute based on the current theme
+		const isDark = document.documentElement.classList.contains("dark");
+		button.title = `Switch to ${isDark ? "light" : "dark"} mode`;
+	}
 </script>
