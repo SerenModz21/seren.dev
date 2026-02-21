@@ -3625,9 +3625,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"astro@npm:^5.17.2":
-  version: 5.17.2
-  resolution: "astro@npm:5.17.2"
+"astro@npm:^5.17.3":
+  version: 5.17.3
+  resolution: "astro@npm:5.17.3"
   dependencies:
     "@astrojs/compiler": "npm:^2.13.0"
     "@astrojs/internal-helpers": "npm:0.7.5"
@@ -3652,7 +3652,7 @@ __metadata:
     dlv: "npm:^1.1.3"
     dset: "npm:^3.1.4"
     es-module-lexer: "npm:^1.7.0"
-    esbuild: "npm:^0.27.0"
+    esbuild: "npm:^0.27.3"
     estree-walker: "npm:^3.0.3"
     flattie: "npm:^1.1.1"
     fontace: "npm:~0.4.0"
@@ -3698,7 +3698,7 @@ __metadata:
       optional: true
   bin:
     astro: astro.js
-  checksum: 10/29cbb3f9e5dc8d67e1222e4c47ae93aae045d0d242e7f8ef157f52b439302d8570098de4671d5d6e2d0908ac8928dcf38aa86d9bdc5d05fec260786c6f7fb0e6
+  checksum: 10/37a02b133966f324585eb76a56bae641caad1dfc2c22badb5f9077ea739e7ad8ea6604b2324c781eb984912ef732f97b48c21c71bf797f1a27eb4560edf4226e
   languageName: node
   linkType: hard
 
@@ -4516,7 +4516,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"esbuild@npm:^0.27.0":
+"esbuild@npm:^0.27.3":
   version: 0.27.3
   resolution: "esbuild@npm:0.27.3"
   dependencies:
@@ -7266,7 +7266,7 @@ __metadata:
     "@tailwindcss/vite": "npm:^4.2.0"
     "@types/react": "npm:^19.2.14"
     "@types/react-dom": "npm:^19.2.3"
-    astro: "npm:^5.17.2"
+    astro: "npm:^5.17.3"
     class-variance-authority: "npm:^0.7.1"
     clsx: "npm:^2.1.1"
     lucide-react: "npm:^0.574.0"
