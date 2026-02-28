@@ -3625,9 +3625,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"astro@npm:^5.17.3":
-  version: 5.17.3
-  resolution: "astro@npm:5.17.3"
+"astro@npm:^5.18.0":
+  version: 5.18.0
+  resolution: "astro@npm:5.18.0"
   dependencies:
     "@astrojs/compiler": "npm:^2.13.0"
     "@astrojs/internal-helpers": "npm:0.7.5"
@@ -3698,7 +3698,7 @@ __metadata:
       optional: true
   bin:
     astro: astro.js
-  checksum: 10/37a02b133966f324585eb76a56bae641caad1dfc2c22badb5f9077ea739e7ad8ea6604b2324c781eb984912ef732f97b48c21c71bf797f1a27eb4560edf4226e
+  checksum: 10/f9a5b04328e69eba04647ebfc866b947c515b7ce47d21dce5c31d634da7a1685fdafb373a0c90bbd52d7eba453fd299a5ccb4da8f9eca07ca51736ee4fcbbc6a
   languageName: node
   linkType: hard
 
@@ -7266,7 +7266,7 @@ __metadata:
     "@tailwindcss/vite": "npm:^4.2.1"
     "@types/react": "npm:^19.2.14"
     "@types/react-dom": "npm:^19.2.3"
-    astro: "npm:^5.17.3"
+    astro: "npm:^5.18.0"
     class-variance-authority: "npm:^0.7.1"
     clsx: "npm:^2.1.1"
     lucide-react: "npm:^0.575.0"
