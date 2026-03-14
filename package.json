@@ -14,7 +14,7 @@
 		"@fontsource-variable/geist": "^5.2.8",
 		"@fontsource-variable/geist-mono": "^5.2.7",
 		"@octokit/rest": "^22.0.1",
-		"astro": "^5.18.1",
+		"astro": "^6.0.2",
 		"class-variance-authority": "^0.7.1",
 		"clsx": "^2.1.1",
 		"lucide-react": "^0.577.0",
@@ -26,7 +26,7 @@
 	},
 	"devDependencies": {
 		"@astrojs/check": "^0.9.7",
-		"@astrojs/react": "^4.4.2",
+		"@astrojs/react": "^5.0.0",
 		"@astrojs/sitemap": "^3.7.1",
 		"@commitlint/cli": "^20.4.3",
 		"@commitlint/config-conventional": "^20.4.3",
