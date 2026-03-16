@@ -3,6 +3,8 @@ import "~/styles/globals.css";
 import { ClientRouter } from "astro:transitions";
 import TailwindIndicator from "~/components/TailwindIndicator.astro";
 
+import geistData from "@fontsource-variable/geist/files/geist-latin-wght-normal.woff2";
+
 interface Props {
 	title?: string | undefined;
 	description?: string | undefined;
@@ -68,6 +70,13 @@ const parsedDescription =
 			href="/favicon.ico"
 			type="image/x-icon"
 			sizes="32x32"
+		/>
+		<link
+			rel="preload"
+			href={geistData}
+			as="font"
+			type="font/woff2"
+			crossorigin
 		/>
 
 		<title>{parsedTitle}</title>
