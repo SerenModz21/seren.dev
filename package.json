@@ -44,7 +44,7 @@
 		"wrangler": "^4.73.0"
 	},
 	"resolutions": {
-		"undici": "7.24.1"
+		"undici": "7.24.4"
 	},
 	"packageManager": "yarn@4.12.0"
 }
