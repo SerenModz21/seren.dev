@@ -117,9 +117,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@astrojs/react@npm:^5.0.0":
-  version: 5.0.0
-  resolution: "@astrojs/react@npm:5.0.0"
+"@astrojs/react@npm:^5.0.1":
+  version: 5.0.1
+  resolution: "@astrojs/react@npm:5.0.1"
   dependencies:
     "@astrojs/internal-helpers": "npm:0.8.0"
     "@vitejs/plugin-react": "npm:^5.1.4"
@@ -131,7 +131,7 @@ __metadata:
     "@types/react-dom": ^17.0.17 || ^18.0.6 || ^19.0.0
     react: ^17.0.2 || ^18.0.0 || ^19.0.0
     react-dom: ^17.0.2 || ^18.0.0 || ^19.0.0
-  checksum: 10/dd1f80b4371393a4b7688f31c18cf54785851d89958f609d2e6cff74370d749c582595597309037c9f28d20accb030ee0edb9105e0537a6563a4dee2a0ba1320
+  checksum: 10/654a393fb4a073e877a0578669b8a67f09196c97d61d0c2aacff581ab3629c917f7d9cd9a8b673bb9a6a1d2205f1a8f77709843aea8829943e4a86b9e2ac6726
   languageName: node
   linkType: hard
 
@@ -3832,7 +3832,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"astro@npm:^6.0.5":
+"astro@npm:^6.0.6":
   version: 6.0.8
   resolution: "astro@npm:6.0.8"
   dependencies:
@@ -7262,7 +7262,7 @@ __metadata:
   resolution: "seren.dev@workspace:."
   dependencies:
     "@astrojs/check": "npm:^0.9.8"
-    "@astrojs/react": "npm:^5.0.0"
+    "@astrojs/react": "npm:^5.0.1"
     "@astrojs/sitemap": "npm:^3.7.1"
     "@commitlint/cli": "npm:^20.5.0"
     "@commitlint/config-conventional": "npm:^20.5.0"
@@ -7272,7 +7272,7 @@ __metadata:
     "@tailwindcss/vite": "npm:^4.2.2"
     "@types/react": "npm:^19.2.14"
     "@types/react-dom": "npm:^19.2.3"
-    astro: "npm:^6.0.5"
+    astro: "npm:^6.0.6"
     class-variance-authority: "npm:^0.7.1"
     clsx: "npm:^2.1.1"
     lucide-react: "npm:^0.577.0"
