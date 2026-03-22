@@ -46,5 +46,5 @@
 	"resolutions": {
 		"undici": "7.24.4"
 	},
-	"packageManager": "yarn@4.12.0"
+	"packageManager": "yarn@4.13.0"
 }
