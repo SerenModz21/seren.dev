@@ -5,3 +5,5 @@ yarn.lock linguist-generated
 .yarn/plugins/** binary
 
 .vscode/*.json linguist-language=jsonc
+
+worker-configuration.d.ts linguist-generated
