@@ -21,6 +21,23 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@astrojs/cloudflare@npm:^13.1.3":
+  version: 13.1.3
+  resolution: "@astrojs/cloudflare@npm:13.1.3"
+  dependencies:
+    "@astrojs/internal-helpers": "npm:0.8.0"
+    "@astrojs/underscore-redirects": "npm:1.0.2"
+    "@cloudflare/vite-plugin": "npm:^1.25.6"
+    piccolore: "npm:^0.1.3"
+    tinyglobby: "npm:^0.2.15"
+    vite: "npm:^7.3.1"
+  peerDependencies:
+    astro: ^6.0.0
+    wrangler: ^4.61.1
+  checksum: 10/799610f86f4ef8e2e8585f54ebc4ce87068aafe95bcb063ea8046c7d19e3ccf2d7abf96b810ec63b9c1cc48f10bfd94be964c984536fbaaf34571b77c797101e
+  languageName: node
+  linkType: hard
+
 "@astrojs/compiler@npm:^2.13.1, @astrojs/compiler@npm:^2.9.1":
   version: 2.13.1
   resolution: "@astrojs/compiler@npm:2.13.1"
@@ -158,6 +175,13 @@ __metadata:
     is-wsl: "npm:^3.1.0"
     which-pm-runs: "npm:^1.1.0"
   checksum: 10/de48659f1193525f0d0b5a5656a06bfecef6e18533239fddf0485da97cb705cb2dc94ade2ca6fff8f82a6b19c8c9192b841681eca4f54cceb73c51c7d63b0730
+  languageName: node
+  linkType: hard
+
+"@astrojs/underscore-redirects@npm:1.0.2":
+  version: 1.0.2
+  resolution: "@astrojs/underscore-redirects@npm:1.0.2"
+  checksum: 10/1739de2555ea43e6a0ee33b8967d459cf96df5a2201858494c1014cd619959954c2427b3c5650c92bb24a9e82c891bb53bf66917b17110e5834261d2fb335ebd
   languageName: node
   linkType: hard
 
@@ -419,6 +443,22 @@ __metadata:
     workerd:
       optional: true
   checksum: 10/1a92678798787a27344eea10a53d3c454523986f53a3565dcc5421461899bcdc005d871d9ab573388b939b5c863f8b82b77bc6959ea598fa00fee9c976b93b20
+  languageName: node
+  linkType: hard
+
+"@cloudflare/vite-plugin@npm:^1.25.6":
+  version: 1.30.0
+  resolution: "@cloudflare/vite-plugin@npm:1.30.0"
+  dependencies:
+    "@cloudflare/unenv-preset": "npm:2.16.0"
+    miniflare: "npm:4.20260317.1"
+    unenv: "npm:2.0.0-rc.24"
+    wrangler: "npm:4.76.0"
+    ws: "npm:8.18.0"
+  peerDependencies:
+    vite: ^6.1.0 || ^7.0.0 || ^8.0.0
+    wrangler: ^4.76.0
+  checksum: 10/eb02b2f0f3fa05275230648363bbb6dc8e441856c48d02f8189297b9c72219a22d1c14b6a8c3aa75cbebc3fa5ddbaf8bccdff8174880bd49ac4a7796cc9e8779
   languageName: node
   linkType: hard
 
@@ -1592,6 +1632,18 @@ __metadata:
   peerDependencies:
     "@octokit/core": ">=6"
   checksum: 10/e9d9ad4d9755cc7fb82fdcbfa870ddea8a432180f0f76c8469095557fd1e26f8caea8cae58401209be17c4f3d8cc48c0e16a3643e37e48f4d23c39e058bf2c55
+  languageName: node
+  linkType: hard
+
+"@octokit/plugin-throttling@npm:^11.0.3":
+  version: 11.0.3
+  resolution: "@octokit/plugin-throttling@npm:11.0.3"
+  dependencies:
+    "@octokit/types": "npm:^16.0.0"
+    bottleneck: "npm:^2.15.3"
+  peerDependencies:
+    "@octokit/core": ^7.0.0
+  checksum: 10/c2d8fb609f5c94301d1e27ab4de9e14d61253d7f61951f9b6501b7de67ea5006c1c41dfa9a176867901f5baff36f9a83675eefbe461b4aa0526cb2478c9e1575
   languageName: node
   linkType: hard
 
@@ -3832,7 +3884,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"astro@npm:^6.0.7":
+"astro@npm:^6.0.8":
   version: 6.0.8
   resolution: "astro@npm:6.0.8"
   dependencies:
@@ -3940,6 +3992,13 @@ __metadata:
   version: 1.0.0
   resolution: "boolbase@npm:1.0.0"
   checksum: 10/3e25c80ef626c3a3487c73dbfc70ac322ec830666c9ad915d11b701142fab25ec1e63eff2c450c74347acfd2de854ccde865cd79ef4db1683f7c7b046ea43bb0
+  languageName: node
+  linkType: hard
+
+"bottleneck@npm:^2.15.3":
+  version: 2.19.5
+  resolution: "bottleneck@npm:2.19.5"
+  checksum: 10/ffb982185236fc42b135f88eb3cfc8b87c4307fb9c3e3658e843ed673ad1c77780b65a01ab532f9857fa0f75ad4d6c1857985b21c9b2bd7eac8ef3c378d7ebf6
   languageName: node
   linkType: hard
 
@@ -7262,17 +7321,19 @@ __metadata:
   resolution: "seren.dev@workspace:."
   dependencies:
     "@astrojs/check": "npm:^0.9.8"
+    "@astrojs/cloudflare": "npm:^13.1.3"
     "@astrojs/react": "npm:^5.0.1"
     "@astrojs/sitemap": "npm:^3.7.1"
     "@commitlint/cli": "npm:^20.5.0"
     "@commitlint/config-conventional": "npm:^20.5.0"
     "@fontsource-variable/geist": "npm:^5.2.8"
     "@fontsource-variable/geist-mono": "npm:^5.2.7"
+    "@octokit/plugin-throttling": "npm:^11.0.3"
     "@octokit/rest": "npm:^22.0.1"
     "@tailwindcss/vite": "npm:^4.2.2"
     "@types/react": "npm:^19.2.14"
     "@types/react-dom": "npm:^19.2.3"
-    astro: "npm:^6.0.7"
+    astro: "npm:^6.0.8"
     class-variance-authority: "npm:^0.7.1"
     clsx: "npm:^2.1.1"
     lucide-react: "npm:^0.577.0"
@@ -7288,7 +7349,7 @@ __metadata:
     tailwindcss: "npm:^4.2.2"
     tw-animate-css: "npm:^1.4.0"
     typescript: "npm:^5.9.3"
-    wrangler: "npm:^4.75.0"
+    wrangler: "npm:^4.76.0"
   languageName: unknown
   linkType: soft
 
@@ -8427,7 +8488,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"wrangler@npm:^4.75.0":
+"wrangler@npm:4.76.0, wrangler@npm:^4.76.0":
   version: 4.76.0
   resolution: "wrangler@npm:4.76.0"
   dependencies:
