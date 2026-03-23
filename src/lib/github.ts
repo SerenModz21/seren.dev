@@ -1,6 +1,9 @@
 import { Octokit } from "@octokit/rest";
+import { env } from "cloudflare:workers";
 
-const octokit = new Octokit();
+const octokit = new Octokit({
+	auth: import.meta.env.GITHUB_TOKEN,
+});
 
 export type UserRepo = Awaited<
 	ReturnType<typeof octokit.rest.repos.listForUser>
@@ -10,32 +13,38 @@ export type OrgRepo = Awaited<
 >["data"][number];
 export type Repo = UserRepo | OrgRepo;
 
-const userCache = new Map<string, UserRepo[]>();
-const orgCache = new Map<string, OrgRepo[]>();
-
-export async function fetchUserRepos(username: string) {
-	if (userCache.has(username)) return userCache.get(username)!;
-
-	const repos = await octokit.rest.repos.listForUser({
-		username,
-		type: "owner",
+export const fetchUserRepos = (username: string) =>
+	cacheJson(`user_repos:${username}`, async () => {
+		const repos = await octokit.rest.repos.listForUser({
+			username,
+			type: "owner",
+		});
+		return repos.data.filter(
+			(repo) => !repo.fork && repo.name !== username,
+		);
 	});
-	const filtered = repos.data.filter(
-		(repo) => !repo.fork && repo.name !== username,
-	);
 
-	userCache.set(username, filtered);
-	return filtered;
-}
+export const fetchOrgRepos = (org: string) =>
+	cacheJson(`org_repos:${org}`, async () => {
+		const repos = await octokit.rest.repos.listForOrg({
+			org,
+			type: "public",
+		});
+		return repos.data.filter(
+			(repo) => !repo.fork && repo.name !== ".github",
+		);
+	});
 
-export async function fetchOrgRepos(org: string) {
-	if (orgCache.has(org)) return orgCache.get(org)!;
+async function cacheJson<Data>(
+	key: string,
+	fetcher: () => Promise<Data>,
+): Promise<Data> {
+	const cached = await env.GITHUB_CACHE.get<Data>(key, { type: "json" });
+	if (cached) return cached;
 
-	const repos = await octokit.rest.repos.listForOrg({ org, type: "public" });
-	const filtered = repos.data.filter(
-		(repo) => !repo.fork && repo.name !== ".github",
-	);
-
-	orgCache.set(org, filtered);
-	return filtered;
+	const data = await fetcher();
+	await env.GITHUB_CACHE.put(key, JSON.stringify(data), {
+		expirationTtl: 3_600, // 1 hour in seconds
+	});
+	return data;
 }
