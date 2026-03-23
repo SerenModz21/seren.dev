@@ -1,4 +1,5 @@
 name = "seren-dev"
+main = "@astrojs/cloudflare/entrypoints/server"
 compatibility_date = "2026-03-12"
 # workers_dev = false
 preview_urls = true
