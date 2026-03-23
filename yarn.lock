@@ -1635,18 +1635,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@octokit/plugin-throttling@npm:^11.0.3":
-  version: 11.0.3
-  resolution: "@octokit/plugin-throttling@npm:11.0.3"
-  dependencies:
-    "@octokit/types": "npm:^16.0.0"
-    bottleneck: "npm:^2.15.3"
-  peerDependencies:
-    "@octokit/core": ^7.0.0
-  checksum: 10/c2d8fb609f5c94301d1e27ab4de9e14d61253d7f61951f9b6501b7de67ea5006c1c41dfa9a176867901f5baff36f9a83675eefbe461b4aa0526cb2478c9e1575
-  languageName: node
-  linkType: hard
-
 "@octokit/request-error@npm:^7.0.2":
   version: 7.0.2
   resolution: "@octokit/request-error@npm:7.0.2"
@@ -3992,13 +3980,6 @@ __metadata:
   version: 1.0.0
   resolution: "boolbase@npm:1.0.0"
   checksum: 10/3e25c80ef626c3a3487c73dbfc70ac322ec830666c9ad915d11b701142fab25ec1e63eff2c450c74347acfd2de854ccde865cd79ef4db1683f7c7b046ea43bb0
-  languageName: node
-  linkType: hard
-
-"bottleneck@npm:^2.15.3":
-  version: 2.19.5
-  resolution: "bottleneck@npm:2.19.5"
-  checksum: 10/ffb982185236fc42b135f88eb3cfc8b87c4307fb9c3e3658e843ed673ad1c77780b65a01ab532f9857fa0f75ad4d6c1857985b21c9b2bd7eac8ef3c378d7ebf6
   languageName: node
   linkType: hard
 
@@ -7328,7 +7309,6 @@ __metadata:
     "@commitlint/config-conventional": "npm:^20.5.0"
     "@fontsource-variable/geist": "npm:^5.2.8"
     "@fontsource-variable/geist-mono": "npm:^5.2.7"
-    "@octokit/plugin-throttling": "npm:^11.0.3"
     "@octokit/rest": "npm:^22.0.1"
     "@tailwindcss/vite": "npm:^4.2.2"
     "@types/react": "npm:^19.2.14"

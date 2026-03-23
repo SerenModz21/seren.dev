@@ -14,7 +14,6 @@
 	"dependencies": {
 		"@fontsource-variable/geist": "^5.2.8",
 		"@fontsource-variable/geist-mono": "^5.2.7",
-		"@octokit/plugin-throttling": "^11.0.3",
 		"@octokit/rest": "^22.0.1",
 		"astro": "^6.0.8",
 		"class-variance-authority": "^0.7.1",

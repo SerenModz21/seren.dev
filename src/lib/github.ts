@@ -1,36 +1,8 @@
 import { Octokit } from "@octokit/rest";
-import { throttling } from "@octokit/plugin-throttling";
 import { env } from "cloudflare:workers";
 
-const ThrottledOctokit = Octokit.plugin(throttling);
-
-const octokit = new ThrottledOctokit({
+const octokit = new Octokit({
 	auth: import.meta.env.GITHUB_TOKEN,
-	throttle: {
-		onRateLimit: (retryAfter, options) => {
-			console.warn(
-				`Request quota exhausted for request ${options.method} ${options.url} - retrying after ${retryAfter} seconds!`,
-			);
-
-			if (
-				"retryCount" in options.request &&
-				typeof options.request.retryCount === "number" &&
-				options.request.retryCount <= 3
-			) {
-				console.log(
-					`Retrying request ${options.method} ${options.url} - attempt #${options.request.retryCount}`,
-				);
-				return true;
-			}
-
-			return false;
-		},
-		onSecondaryRateLimit: (retryAfter, options) => {
-			console.warn(
-				`SecondaryRateLimit detected for request ${options.method} ${options.url} - retrying after ${retryAfter} seconds!`,
-			);
-		},
-	},
 });
 
 type CacheEntry = { etag: string | undefined; response: unknown };
