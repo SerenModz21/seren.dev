@@ -5,58 +5,6 @@ const octokit = new Octokit({
 	auth: import.meta.env.GITHUB_TOKEN,
 });
 
-type CacheEntry = { etag: string | undefined; response: unknown };
-
-function formatOptionsUrl<O extends { baseUrl: string; url: string }>(
-	options: O,
-) {
-	let url = `${options.baseUrl}${options.url}`;
-
-	if ("username" in options && typeof options.username === "string") {
-		url = url.replace("{username}", options.username);
-	}
-
-	if ("org" in options && typeof options.org === "string") {
-		url = url.replace("{org}", options.org);
-	}
-
-	if ("type" in options && typeof options.type === "string") {
-		url = `${url}?type=${options.type}`;
-	}
-
-	return url;
-}
-
-octokit.hook.before("request", async (options) => {
-	const entry = await env.GITHUB_CACHE.get<CacheEntry>(
-		formatOptionsUrl(options),
-		{ type: "json" },
-	);
-
-	if (entry?.etag) {
-		options.headers["if-none-match"] = entry.etag;
-	}
-});
-
-octokit.hook.after("request", async (response, options) => {
-	await env.GITHUB_CACHE.put(
-		formatOptionsUrl(options),
-		JSON.stringify({ etag: response.headers.etag, response }),
-		{ expirationTtl: 86_400 }, // 86,400 is 24 hours in seconds
-	);
-});
-
-octokit.hook.error("request", async (error, options) => {
-	if ("status" in error && error.status === 304) {
-		const entry = await env.GITHUB_CACHE.get<CacheEntry>(
-			formatOptionsUrl(options),
-			{ type: "json" },
-		);
-		if (entry) return entry.response;
-	}
-	throw error;
-});
-
 export type UserRepo = Awaited<
 	ReturnType<typeof octokit.rest.repos.listForUser>
 >["data"][number];
@@ -65,23 +13,38 @@ export type OrgRepo = Awaited<
 >["data"][number];
 export type Repo = UserRepo | OrgRepo;
 
-export async function fetchUserRepos(username: string) {
-	const repos = await octokit.rest.repos.listForUser({
-		username,
-		type: "owner",
+export const fetchUserRepos = (username: string) =>
+	cacheJson(`user_repos:${username}`, async () => {
+		const repos = await octokit.rest.repos.listForUser({
+			username,
+			type: "owner",
+		});
+		return repos.data.filter(
+			(repo) => !repo.fork && repo.name !== username,
+		);
 	});
-	const filtered = repos.data.filter(
-		(repo) => !repo.fork && repo.name !== username,
-	);
 
-	return filtered;
-}
+export const fetchOrgRepos = (org: string) =>
+	cacheJson(`org_repos:${org}`, async () => {
+		const repos = await octokit.rest.repos.listForOrg({
+			org,
+			type: "public",
+		});
+		return repos.data.filter(
+			(repo) => !repo.fork && repo.name !== ".github",
+		);
+	});
 
-export async function fetchOrgRepos(org: string) {
-	const repos = await octokit.rest.repos.listForOrg({ org, type: "public" });
-	const filtered = repos.data.filter(
-		(repo) => !repo.fork && repo.name !== ".github",
-	);
+async function cacheJson<Data>(
+	key: string,
+	fetcher: () => Promise<Data>,
+): Promise<Data> {
+	const cached = await env.GITHUB_CACHE.get<Data>(key, { type: "json" });
+	if (cached) return cached;
 
-	return filtered;
+	const data = await fetcher();
+	await env.GITHUB_CACHE.put(key, JSON.stringify(data), {
+		expirationTtl: 3_600, // 1 hour in seconds
+	});
+	return data;
 }
