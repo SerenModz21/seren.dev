@@ -1,0 +1,8 @@
+---
+import { fetchUserRepos } from "~/lib/github";
+import GithubCard from "~/components/GithubCard.astro";
+
+const personalRepos = await fetchUserRepos("SerenModz21");
+---
+
+{personalRepos.map((r) => <GithubCard repo={r} />)}
