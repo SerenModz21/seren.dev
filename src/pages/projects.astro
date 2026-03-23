@@ -1,12 +1,18 @@
 ---
 import PageLayout from "~/layouts/PageLayout.astro";
 
-import { fetchUserRepos, fetchOrgRepos } from "~/lib/github";
-import GithubCard from "~/components/GithubCard.astro";
+// export const prerender = false;
 
-const personalRepos = await fetchUserRepos("SerenModz21");
-const kingsWorldRepos = await fetchOrgRepos("Kings-World");
-const mixtapeRepos = await fetchOrgRepos("mixtape-bot");
+// import { fetchUserRepos, fetchOrgRepos } from "~/lib/github";
+// import GithubCard from "~/components/GithubCard.astro";
+
+import PersonalProjects from "~/components/projects/PersonalProjects.astro";
+import KingsWorldProjects from "~/components/projects/KingsWorldProjects.astro";
+import MixtapeProjects from "~/components/projects/MixtapeProjects.astro";
+
+// const personalRepos = await fetchUserRepos("SerenModz21");
+// const kingsWorldRepos = await fetchOrgRepos("Kings-World");
+// const mixtapeRepos = await fetchOrgRepos("mixtape-bot");
 ---
 
 <PageLayout
@@ -21,12 +27,16 @@ const mixtapeRepos = await fetchOrgRepos("mixtape-bot");
 		</p>
 	</div>
 	<div class="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
-		{personalRepos.map((r) => <GithubCard repo={r} />)}
+		<!-- {personalRepos.map((r) => <GithubCard repo={r} />)}
 		{kingsWorldRepos.map((r) => <GithubCard repo={r} />)}
 		{
 			mixtapeRepos
 				.filter((r) => ["deck.js", "rpc"].includes(r.name))
 				.map((r) => <GithubCard repo={r} />)
-		}
+		} -->
+
+		<PersonalProjects />
+		<KingsWorldProjects />
+		<MixtapeProjects />
 	</div>
 </PageLayout>
