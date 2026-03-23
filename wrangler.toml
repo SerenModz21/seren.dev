@@ -1,6 +1,7 @@
 name = "seren-dev"
 compatibility_date = "2026-03-12"
 # workers_dev = false
+preview_urls = true
 
 [assets]
 directory = "./dist/"
