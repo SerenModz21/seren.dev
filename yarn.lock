@@ -21,12 +21,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@astrojs/cloudflare@npm:^13.1.4":
-  version: 13.1.4
-  resolution: "@astrojs/cloudflare@npm:13.1.4"
+"@astrojs/cloudflare@npm:^13.1.6":
+  version: 13.1.7
+  resolution: "@astrojs/cloudflare@npm:13.1.7"
   dependencies:
     "@astrojs/internal-helpers": "npm:0.8.0"
-    "@astrojs/underscore-redirects": "npm:1.0.2"
+    "@astrojs/underscore-redirects": "npm:1.0.3"
     "@cloudflare/vite-plugin": "npm:^1.25.6"
     piccolore: "npm:^0.1.3"
     tinyglobby: "npm:^0.2.15"
@@ -34,7 +34,7 @@ __metadata:
   peerDependencies:
     astro: ^6.0.0
     wrangler: ^4.61.1
-  checksum: 10/13e5d28313393c3bb8ffbae5fd6cddc50e8e2998c58cddcc42ecdd3a17d9a96fd5c560c3edee3d5dad4975bc5f556a48e2286b2e3d3247d385a9ada487b5ab92
+  checksum: 10/803322f2cd818564ce156236c2cae8d824577bd072992fb77b2fb65aed7d1ef5333a4ea40a5e87db965e594cdf5b142e54ab8b5acc559123264d3e5d6289ba65
   languageName: node
   linkType: hard
 
@@ -179,10 +179,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@astrojs/underscore-redirects@npm:1.0.2":
-  version: 1.0.2
-  resolution: "@astrojs/underscore-redirects@npm:1.0.2"
-  checksum: 10/1739de2555ea43e6a0ee33b8967d459cf96df5a2201858494c1014cd619959954c2427b3c5650c92bb24a9e82c891bb53bf66917b17110e5834261d2fb335ebd
+"@astrojs/underscore-redirects@npm:1.0.3":
+  version: 1.0.3
+  resolution: "@astrojs/underscore-redirects@npm:1.0.3"
+  checksum: 10/375d44eafc5daccb7b0a7317b99f26177520ee67110d234ea8c6cd4bc2eb579debd26b283b4025ada266b9ecf64d10ac0b05a770f77cc63ae5ab0dc9a548faa9
   languageName: node
   linkType: hard
 
@@ -3862,9 +3862,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"astro@npm:^6.1.1":
-  version: 6.1.1
-  resolution: "astro@npm:6.1.1"
+"astro@npm:^6.1.2":
+  version: 6.1.3
+  resolution: "astro@npm:6.1.3"
   dependencies:
     "@astrojs/compiler": "npm:^3.0.1"
     "@astrojs/internal-helpers": "npm:0.8.0"
@@ -3927,7 +3927,7 @@ __metadata:
       optional: true
   bin:
     astro: bin/astro.mjs
-  checksum: 10/37575766ff9b96f2dd24f4bde6b572fb0f09740dc53936e1f88f0a88f497bfa482399b072f29060bb9fe4a0f559f8c6469724733e52824b7be4babe8e3aea7eb
+  checksum: 10/dfe6b86bfaafef79aac1c9acfdd52f26a2bbda63430f2c76636260076669d645c75e9fbcb08ebdc8f46d93a7369828d129bd2fda3498335523f618f93d80260f
   languageName: node
   linkType: hard
 
@@ -7186,7 +7186,7 @@ __metadata:
   resolution: "seren.dev@workspace:."
   dependencies:
     "@astrojs/check": "npm:^0.9.8"
-    "@astrojs/cloudflare": "npm:^13.1.4"
+    "@astrojs/cloudflare": "npm:^13.1.6"
     "@astrojs/react": "npm:^5.0.2"
     "@astrojs/sitemap": "npm:^3.7.2"
     "@commitlint/cli": "npm:^20.5.0"
@@ -7197,7 +7197,7 @@ __metadata:
     "@tailwindcss/vite": "npm:^4.2.2"
     "@types/react": "npm:^19.2.14"
     "@types/react-dom": "npm:^19.2.3"
-    astro: "npm:^6.1.1"
+    astro: "npm:^6.1.2"
     class-variance-authority: "npm:^0.7.1"
     clsx: "npm:^2.1.1"
     lucide-react: "npm:^1.7.0"
