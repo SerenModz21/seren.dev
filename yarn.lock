@@ -7247,7 +7247,7 @@ __metadata:
     tailwindcss: "npm:^4.2.2"
     tw-animate-css: "npm:^1.4.0"
     typescript: "npm:^6.0.2"
-    wrangler: "npm:^4.82.2"
+    wrangler: "npm:^4.83.0"
   languageName: unknown
   linkType: soft
 
@@ -8368,7 +8368,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"wrangler@npm:^4.82.2":
+"wrangler@npm:^4.83.0":
   version: 4.83.0
   resolution: "wrangler@npm:4.83.0"
   dependencies:
