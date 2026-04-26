@@ -6531,9 +6531,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier-plugin-tailwindcss@npm:^0.7.2":
-  version: 0.7.2
-  resolution: "prettier-plugin-tailwindcss@npm:0.7.2"
+"prettier-plugin-tailwindcss@npm:^0.7.3":
+  version: 0.7.3
+  resolution: "prettier-plugin-tailwindcss@npm:0.7.3"
   peerDependencies:
     "@ianvs/prettier-plugin-sort-imports": "*"
     "@prettier/plugin-hermes": "*"
@@ -6585,7 +6585,7 @@ __metadata:
       optional: true
     prettier-plugin-svelte:
       optional: true
-  checksum: 10/c77253025d62555e761b0a76df6e5c73d48d96a259ac157de9c21f11a7851fd2b434c27b296b119530895a57fe87c8cf337b0df0bff97b2bc1a0d48a442b0d99
+  checksum: 10/cad84a4cdb18dccd2d1e82ca58ecb1b32012d7da402451f6b2c7c6488bd9865c39482cff61e898648a4c9453131688cf2ade2a85e967f7698dacfe89ff43393a
   languageName: node
   linkType: hard
 
@@ -7194,7 +7194,7 @@ __metadata:
     lucide-react: "npm:^1.8.0"
     prettier: "npm:^3.8.3"
     prettier-plugin-astro: "npm:^0.14.1"
-    prettier-plugin-tailwindcss: "npm:^0.7.2"
+    prettier-plugin-tailwindcss: "npm:^0.7.3"
     pretty-quick: "npm:^4.2.2"
     radix-ui: "npm:^1.4.3"
     react: "npm:^19.2.5"
