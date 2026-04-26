@@ -21,7 +21,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@astrojs/cloudflare@npm:^13.2.0":
+"@astrojs/cloudflare@npm:^13.2.1":
   version: 13.2.1
   resolution: "@astrojs/cloudflare@npm:13.2.1"
   dependencies:
@@ -5508,12 +5508,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lucide-react@npm:^1.8.0":
-  version: 1.8.0
-  resolution: "lucide-react@npm:1.8.0"
+"lucide-react@npm:^1.9.0":
+  version: 1.11.0
+  resolution: "lucide-react@npm:1.11.0"
   peerDependencies:
     react: ^16.5.1 || ^17.0.0 || ^18.0.0 || ^19.0.0
-  checksum: 10/eab3a763a1095eed3f0ff172c19527989c8c721fa17cd453e1a537b771c4c715cd250893d2ff79a3dc075f391d6bef0babc392a509a9820b0ae8cf7bc1f35f2f
+  checksum: 10/7eff2ed85e65066d2227aa6ee0937eb013d3cca4a70fe80bd7c54d3afbb75b79afab0dd7f331d3f369e5af0695c665cad78aa3b6c9a3f0857018eec4008d4ce3
   languageName: node
   linkType: hard
 
@@ -7177,7 +7177,7 @@ __metadata:
   resolution: "seren.dev@workspace:."
   dependencies:
     "@astrojs/check": "npm:^0.9.8"
-    "@astrojs/cloudflare": "npm:^13.2.0"
+    "@astrojs/cloudflare": "npm:^13.2.1"
     "@astrojs/react": "npm:^5.0.4"
     "@astrojs/sitemap": "npm:^3.7.2"
     "@commitlint/cli": "npm:^20.5.0"
@@ -7191,7 +7191,7 @@ __metadata:
     astro: "npm:^6.1.9"
     class-variance-authority: "npm:^0.7.1"
     clsx: "npm:^2.1.1"
-    lucide-react: "npm:^1.8.0"
+    lucide-react: "npm:^1.9.0"
     prettier: "npm:^3.8.3"
     prettier-plugin-astro: "npm:^0.14.1"
     prettier-plugin-tailwindcss: "npm:^0.7.3"
