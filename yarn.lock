@@ -5,7 +5,7 @@ __metadata:
   version: 9
   cacheKey: 10
 
-"@astrojs/check@npm:^0.9.8":
+"@astrojs/check@npm:0.9.8":
   version: 0.9.8
   resolution: "@astrojs/check@npm:0.9.8"
   dependencies:
@@ -21,7 +21,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@astrojs/cloudflare@npm:^13.2.1":
+"@astrojs/cloudflare@npm:13.2.1":
   version: 13.2.1
   resolution: "@astrojs/cloudflare@npm:13.2.1"
   dependencies:
@@ -135,7 +135,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@astrojs/react@npm:^5.0.4":
+"@astrojs/react@npm:5.0.4":
   version: 5.0.4
   resolution: "@astrojs/react@npm:5.0.4"
   dependencies:
@@ -153,7 +153,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@astrojs/sitemap@npm:^3.7.2":
+"@astrojs/sitemap@npm:3.7.2":
   version: 3.7.2
   resolution: "@astrojs/sitemap@npm:3.7.2"
   dependencies:
@@ -497,7 +497,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/cli@npm:^20.5.0":
+"@commitlint/cli@npm:20.5.0":
   version: 20.5.0
   resolution: "@commitlint/cli@npm:20.5.0"
   dependencies:
@@ -514,7 +514,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/config-conventional@npm:^20.5.0":
+"@commitlint/config-conventional@npm:20.5.0":
   version: 20.5.0
   resolution: "@commitlint/config-conventional@npm:20.5.0"
   dependencies:
@@ -3474,7 +3474,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tailwindcss/vite@npm:^4.2.4":
+"@tailwindcss/vite@npm:4.2.4":
   version: 4.2.4
   resolution: "@tailwindcss/vite@npm:4.2.4"
   dependencies:
@@ -6520,7 +6520,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier-plugin-astro@npm:^0.14.1":
+"prettier-plugin-astro@npm:0.14.1":
   version: 0.14.1
   resolution: "prettier-plugin-astro@npm:0.14.1"
   dependencies:
@@ -6531,7 +6531,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier-plugin-tailwindcss@npm:^0.7.3":
+"prettier-plugin-tailwindcss@npm:0.7.3":
   version: 0.7.3
   resolution: "prettier-plugin-tailwindcss@npm:0.7.3"
   peerDependencies:
@@ -6589,7 +6589,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier@npm:^3.0.0, prettier@npm:^3.5.0, prettier@npm:^3.8.3":
+"prettier@npm:3.8.3, prettier@npm:^3.0.0, prettier@npm:^3.5.0":
   version: 3.8.3
   resolution: "prettier@npm:3.8.3"
   bin:
@@ -6598,7 +6598,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"pretty-quick@npm:^4.2.2":
+"pretty-quick@npm:4.2.2":
   version: 4.2.2
   resolution: "pretty-quick@npm:4.2.2"
   dependencies:
@@ -7176,35 +7176,35 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "seren.dev@workspace:."
   dependencies:
-    "@astrojs/check": "npm:^0.9.8"
-    "@astrojs/cloudflare": "npm:^13.2.1"
-    "@astrojs/react": "npm:^5.0.4"
-    "@astrojs/sitemap": "npm:^3.7.2"
-    "@commitlint/cli": "npm:^20.5.0"
-    "@commitlint/config-conventional": "npm:^20.5.0"
+    "@astrojs/check": "npm:0.9.8"
+    "@astrojs/cloudflare": "npm:13.2.1"
+    "@astrojs/react": "npm:5.0.4"
+    "@astrojs/sitemap": "npm:3.7.2"
+    "@commitlint/cli": "npm:20.5.0"
+    "@commitlint/config-conventional": "npm:20.5.0"
     "@fontsource-variable/geist": "npm:^5.2.8"
     "@fontsource-variable/geist-mono": "npm:^5.2.7"
     "@octokit/rest": "npm:^22.0.1"
-    "@tailwindcss/vite": "npm:^4.2.4"
+    "@tailwindcss/vite": "npm:4.2.4"
     "@types/react": "npm:^19.2.14"
     "@types/react-dom": "npm:^19.2.3"
     astro: "npm:^6.1.9"
     class-variance-authority: "npm:^0.7.1"
     clsx: "npm:^2.1.1"
     lucide-react: "npm:^1.9.0"
-    prettier: "npm:^3.8.3"
-    prettier-plugin-astro: "npm:^0.14.1"
-    prettier-plugin-tailwindcss: "npm:^0.7.3"
-    pretty-quick: "npm:^4.2.2"
+    prettier: "npm:3.8.3"
+    prettier-plugin-astro: "npm:0.14.1"
+    prettier-plugin-tailwindcss: "npm:0.7.3"
+    pretty-quick: "npm:4.2.2"
     radix-ui: "npm:^1.4.3"
     react: "npm:^19.2.5"
     react-dom: "npm:^19.2.5"
     simple-icons-astro: "npm:^16.1.0"
     tailwind-merge: "npm:^3.5.0"
-    tailwindcss: "npm:^4.2.4"
-    tw-animate-css: "npm:^1.4.0"
-    typescript: "npm:^6.0.3"
-    wrangler: "npm:^4.84.1"
+    tailwindcss: "npm:4.2.4"
+    tw-animate-css: "npm:1.4.0"
+    typescript: "npm:6.0.3"
+    wrangler: "npm:4.85.0"
   languageName: unknown
   linkType: soft
 
@@ -7473,7 +7473,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tailwindcss@npm:4.2.4, tailwindcss@npm:^4.2.4":
+"tailwindcss@npm:4.2.4":
   version: 4.2.4
   resolution: "tailwindcss@npm:4.2.4"
   checksum: 10/54734efe725d1717fb9064940d705852448fb91a7fc78399a2d4263dc0fd4c260017baa13362f13f604bbfd4a0a882b83253c0cd6f14fe80454fd916966e8d72
@@ -7573,7 +7573,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tw-animate-css@npm:^1.4.0":
+"tw-animate-css@npm:1.4.0":
   version: 1.4.0
   resolution: "tw-animate-css@npm:1.4.0"
   checksum: 10/9d46c71b624bc7f9cf7a91c0ab3a04cfb22ba605a690961eea35689e368a8721add12815f59aa0fbf7092374acb24552f281351a83bf8b25414c52f4888f94ad
@@ -7596,7 +7596,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:^6.0.3":
+"typescript@npm:6.0.3":
   version: 6.0.3
   resolution: "typescript@npm:6.0.3"
   bin:
@@ -7606,7 +7606,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@npm%3A^6.0.3#optional!builtin<compat/typescript>":
+"typescript@patch:typescript@npm%3A6.0.3#optional!builtin<compat/typescript>":
   version: 6.0.3
   resolution: "typescript@patch:typescript@npm%3A6.0.3#optional!builtin<compat/typescript>::version=6.0.3&hash=5786d5"
   bin:
@@ -8271,7 +8271,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"wrangler@npm:4.85.0, wrangler@npm:^4.84.1":
+"wrangler@npm:4.85.0":
   version: 4.85.0
   resolution: "wrangler@npm:4.85.0"
   dependencies:
