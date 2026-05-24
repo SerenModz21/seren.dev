@@ -21,9 +21,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@astrojs/cloudflare@npm:13.5.3":
-  version: 13.5.3
-  resolution: "@astrojs/cloudflare@npm:13.5.3"
+"@astrojs/cloudflare@npm:13.5.4":
+  version: 13.5.4
+  resolution: "@astrojs/cloudflare@npm:13.5.4"
   dependencies:
     "@astrojs/internal-helpers": "npm:0.9.1"
     "@astrojs/underscore-redirects": "npm:1.0.3"
@@ -34,7 +34,7 @@ __metadata:
   peerDependencies:
     astro: ^6.3.0
     wrangler: ^4.83.0
-  checksum: 10/d13caba90362feaada38d4ee1b3c4fb13d4dab4bd61ae5af7d8ba2bf3938160e679fbad22accf742ff0ab0f87f801f6a769fd9a7aab2d768ee66735d2f0dc81b
+  checksum: 10/30887af2a6e5cddfa9fe14deb6d25fadd6d36127493cc09bcd34343fb5cf34c38c3e7f20b49fb1e72e52bd99b4b7549db21e0f7642f676f3b9ecfe61038b4f08
   languageName: node
   linkType: hard
 
@@ -3864,7 +3864,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"astro@npm:^6.3.6":
+"astro@npm:^6.3.7":
   version: 6.3.7
   resolution: "astro@npm:6.3.7"
   dependencies:
@@ -7002,7 +7002,7 @@ __metadata:
   resolution: "seren.dev@workspace:."
   dependencies:
     "@astrojs/check": "npm:0.9.9"
-    "@astrojs/cloudflare": "npm:13.5.3"
+    "@astrojs/cloudflare": "npm:13.5.4"
     "@astrojs/react": "npm:5.0.5"
     "@astrojs/sitemap": "npm:3.7.2"
     "@commitlint/cli": "npm:21.0.1"
@@ -7013,7 +7013,7 @@ __metadata:
     "@tailwindcss/vite": "npm:4.3.0"
     "@types/react": "npm:19.2.15"
     "@types/react-dom": "npm:19.2.3"
-    astro: "npm:^6.3.6"
+    astro: "npm:^6.3.7"
     class-variance-authority: "npm:^0.7.1"
     clsx: "npm:^2.1.1"
     lucide-react: "npm:^1.16.0"
