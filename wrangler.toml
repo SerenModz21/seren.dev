@@ -13,3 +13,8 @@ enabled = true
 
 [[kv_namespaces]]
 binding = "GITHUB_CACHE"
+id = "b87e2121a26a4e86a055d031a0a4bb2d"
+
+[[kv_namespaces]]
+binding = "SESSION"
+id = "8eb473cf13a44ba9be04416ff492c568"
