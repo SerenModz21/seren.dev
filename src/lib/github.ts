@@ -1,7 +1,9 @@
+import { retry } from "@octokit/plugin-retry";
 import { Octokit } from "@octokit/rest";
 import { env } from "cloudflare:workers";
 
-const octokit = new Octokit({
+const OctokitWithRetry = Octokit.plugin(retry);
+const octokit = new OctokitWithRetry({
 	auth: import.meta.env.GITHUB_TOKEN,
 });
 
