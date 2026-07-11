@@ -21,9 +21,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@astrojs/cloudflare@npm:14.1.1":
-  version: 14.1.1
-  resolution: "@astrojs/cloudflare@npm:14.1.1"
+"@astrojs/cloudflare@npm:14.1.2":
+  version: 14.1.2
+  resolution: "@astrojs/cloudflare@npm:14.1.2"
   dependencies:
     "@astrojs/internal-helpers": "npm:0.10.1"
     "@astrojs/underscore-redirects": "npm:1.0.3"
@@ -33,7 +33,7 @@ __metadata:
   peerDependencies:
     astro: ^7.0.0
     wrangler: ^4.83.0
-  checksum: 10/9ab89ecd59227caa0de7bc2830a20dead3fb34213a3399f886591d932811f12827a3a2da83bdbac304afedb072ff7d22102225e2cff8f00a59e8adde6fdd4a97
+  checksum: 10/de11e6f1c0ec38c60e171f4414a32d9ef2aaa8fc72d11ab6dc8445eed25328cb00121e6a785f0b33f893afa2881d9238e247f107176705c1748a2a2a341be496
   languageName: node
   linkType: hard
 
@@ -256,16 +256,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@astrojs/telemetry@npm:3.3.2":
-  version: 3.3.2
-  resolution: "@astrojs/telemetry@npm:3.3.2"
+"@astrojs/telemetry@npm:3.3.3":
+  version: 3.3.3
+  resolution: "@astrojs/telemetry@npm:3.3.3"
   dependencies:
     ci-info: "npm:^4.4.0"
     dset: "npm:^3.1.4"
     is-docker: "npm:^4.0.0"
-    is-wsl: "npm:^3.1.1"
-    which-pm-runs: "npm:^1.1.0"
-  checksum: 10/8cea3f0183342a3aba1fa3682c2d9169861bf078525ce3def874ef2e55889d6b7adf63bbbe679e1524de6f4cb6389cdd9bce67b2c1bf29ed9d2982d15a3f9ac8
+    package-manager-detector: "npm:^1.6.0"
+  checksum: 10/652651b24922fb393b28321c98678f20cfb989c0e82833a767539a1a050674b952453de79548f2a2f6424e137a5bad467b5d580d9b14d4f2db0ac563c00ebfd0
   languageName: node
   linkType: hard
 
@@ -4057,14 +4056,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"astro@npm:^7.0.6":
-  version: 7.0.6
-  resolution: "astro@npm:7.0.6"
+"astro@npm:^7.0.7":
+  version: 7.0.7
+  resolution: "astro@npm:7.0.7"
   dependencies:
     "@astrojs/compiler-rs": "npm:^0.3.0"
     "@astrojs/internal-helpers": "npm:0.10.1"
     "@astrojs/markdown-satteri": "npm:0.3.3"
-    "@astrojs/telemetry": "npm:3.3.2"
+    "@astrojs/telemetry": "npm:3.3.3"
     "@capsizecss/unpack": "npm:^4.0.0"
     "@clack/prompts": "npm:^1.1.0"
     "@oslojs/encoding": "npm:^1.1.0"
@@ -4125,7 +4124,7 @@ __metadata:
       optional: true
   bin:
     astro: ./bin/astro.mjs
-  checksum: 10/d9d3d1e8688d8347a271a0c90deaff8686c5ac999993f4f0ecaa24c6def40559afb6291c42fe4cec4fc4a45de808ebb51a463b4ac64e0bcbee214c731f1f039a
+  checksum: 10/a877cfa0ef06ef6deb756d90c8b760fc2a08b21580e3830388007341f422ec6f102de4e45b592f54f4d710fd4a9676d0c4668bb10fc39e9ff86605f47d774244
   languageName: node
   linkType: hard
 
@@ -5080,15 +5079,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"is-docker@npm:^3.0.0":
-  version: 3.0.0
-  resolution: "is-docker@npm:3.0.0"
-  bin:
-    is-docker: cli.js
-  checksum: 10/b698118f04feb7eaf3338922bd79cba064ea54a1c3db6ec8c0c8d8ee7613e7e5854d802d3ef646812a8a3ace81182a085dfa0a71cc68b06f3fa794b9783b3c90
-  languageName: node
-  linkType: hard
-
 "is-docker@npm:^4.0.0":
   version: 4.0.0
   resolution: "is-docker@npm:4.0.0"
@@ -5105,30 +5095,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"is-inside-container@npm:^1.0.0":
-  version: 1.0.0
-  resolution: "is-inside-container@npm:1.0.0"
-  dependencies:
-    is-docker: "npm:^3.0.0"
-  bin:
-    is-inside-container: cli.js
-  checksum: 10/c50b75a2ab66ab3e8b92b3bc534e1ea72ca25766832c0623ac22d134116a98bcf012197d1caabe1d1c4bd5f84363d4aa5c36bb4b585fbcaf57be172cd10a1a03
-  languageName: node
-  linkType: hard
-
 "is-plain-obj@npm:^4.0.0, is-plain-obj@npm:^4.1.0":
   version: 4.1.0
   resolution: "is-plain-obj@npm:4.1.0"
   checksum: 10/6dc45da70d04a81f35c9310971e78a6a3c7a63547ef782e3a07ee3674695081b6ca4e977fbb8efc48dae3375e0b34558d2bcd722aec9bddfa2d7db5b041be8ce
-  languageName: node
-  linkType: hard
-
-"is-wsl@npm:^3.1.1":
-  version: 3.1.1
-  resolution: "is-wsl@npm:3.1.1"
-  dependencies:
-    is-inside-container: "npm:^1.0.0"
-  checksum: 10/513d95b89af0e60b43d7b17ecb7eb78edea0a439136a3da37b1b56e215379cc46a9221474ad5b2de044824ca72d7869dee6e015273dc3f71f2bb87c715f9f1dc
   languageName: node
   linkType: hard
 
@@ -6344,7 +6314,7 @@ __metadata:
   resolution: "seren.dev@workspace:."
   dependencies:
     "@astrojs/check": "npm:0.9.9"
-    "@astrojs/cloudflare": "npm:14.1.1"
+    "@astrojs/cloudflare": "npm:14.1.2"
     "@astrojs/react": "npm:6.0.1"
     "@astrojs/sitemap": "npm:3.7.3"
     "@commitlint/cli": "npm:21.2.1"
@@ -6356,7 +6326,7 @@ __metadata:
     "@tailwindcss/vite": "npm:4.3.2"
     "@types/react": "npm:19.2.17"
     "@types/react-dom": "npm:19.2.3"
-    astro: "npm:^7.0.6"
+    astro: "npm:^7.0.7"
     class-variance-authority: "npm:^0.7.1"
     clsx: "npm:^2.1.1"
     lucide-react: "npm:^1.23.0"
@@ -7412,13 +7382,6 @@ __metadata:
   version: 3.1.0
   resolution: "vscode-uri@npm:3.1.0"
   checksum: 10/80c2a2421f44b64008ef1f91dfa52a2d68105cbb4dcea197dbf5b00c65ccaccf218b615e93ec587f26fc3ba04796898f3631a9406e3b04cda970c3ca8eadf646
-  languageName: node
-  linkType: hard
-
-"which-pm-runs@npm:^1.1.0":
-  version: 1.1.0
-  resolution: "which-pm-runs@npm:1.1.0"
-  checksum: 10/39a56ee50886fb33ec710e3b36dc9fe3d0096cac44850d9ca0c6186c4cb824d6c8125f013e0562e7c94744e1e8e4a6ab695592cdb12555777c7a4368143d822c
   languageName: node
   linkType: hard
 
