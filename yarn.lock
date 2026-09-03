@@ -4476,6 +4476,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"cn@npm:^0.2.4":
+  version: 0.2.4
+  resolution: "cn@npm:0.2.4"
+  bin:
+    cn: bin/cn.mjs
+  checksum: 10/75ca71e22caedadec6506563fe4351f4204fff1480c6e53608d15ae328df64998e46c35843ea13d0ac57013ee6865e4e7da5b7223b646bf9140bc5077efcc23e
+  languageName: node
+  linkType: hard
+
 "comma-separated-tokens@npm:^2.0.0":
   version: 2.0.3
   resolution: "comma-separated-tokens@npm:2.0.3"
@@ -6668,7 +6677,7 @@ __metadata:
     "@types/react-dom": "npm:19.2.5"
     astro: "npm:^7.2.9"
     class-variance-authority: "npm:^0.7.1"
-    clsx: "npm:^2.1.1"
+    cn: "npm:^0.2.4"
     lucide-react: "npm:^1.35.0"
     prettier: "npm:3.9.6"
     prettier-plugin-astro: "npm:0.14.1"
@@ -6678,7 +6687,6 @@ __metadata:
     react: "npm:^19.2.8"
     react-dom: "npm:^19.2.8"
     simple-icons-astro: "npm:^16.1.0"
-    tailwind-merge: "npm:^3.6.0"
     tailwindcss: "npm:4.3.3"
     tw-animate-css: "npm:1.4.0"
     typescript: "npm:6.0.3"
@@ -7007,13 +7015,6 @@ __metadata:
   bin:
     svgo: bin/svgo.js
   checksum: 10/72a501b49a9ceed175e1e1a66208516641a9f4a1c1908bb6bf4cf2e9678ce68e827af68a569a532dfdbbf7929abf044bbb8b47aa6a0fc9aedc127791ad1df650
-  languageName: node
-  linkType: hard
-
-"tailwind-merge@npm:^3.6.0":
-  version: 3.6.0
-  resolution: "tailwind-merge@npm:3.6.0"
-  checksum: 10/1da88698b6d878c391ab83064346e4b5b038d1b519d90825044df4b096971522c12253c7d6ab586c9da04e2039ba46573696138ea3d19c685d3c236f1f892899
   languageName: node
   linkType: hard
 

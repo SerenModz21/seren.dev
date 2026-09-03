@@ -18,13 +18,12 @@
 		"@octokit/rest": "^22.0.1",
 		"astro": "^7.2.9",
 		"class-variance-authority": "^0.7.1",
-		"clsx": "^2.1.1",
+		"cn": "^0.2.4",
 		"lucide-react": "^1.35.0",
 		"radix-ui": "^1.6.7",
 		"react": "^19.2.8",
 		"react-dom": "^19.2.8",
-		"simple-icons-astro": "^16.1.0",
-		"tailwind-merge": "^3.6.0"
+		"simple-icons-astro": "^16.1.0"
 	},
 	"devDependencies": {
 		"@astrojs/check": "0.9.10",
