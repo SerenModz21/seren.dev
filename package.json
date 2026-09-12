@@ -33,7 +33,7 @@
 		"@commitlint/cli": "21.2.2",
 		"@commitlint/config-conventional": "21.2.2",
 		"@tailwindcss/vite": "4.3.3",
-		"@types/react": "19.2.18",
+		"@types/react": "19.3.0",
 		"@types/react-dom": "19.3.0",
 		"prettier": "3.9.6",
 		"prettier-plugin-astro": "1.0.0",
