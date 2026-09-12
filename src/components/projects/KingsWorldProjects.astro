@@ -5,4 +5,6 @@ import GithubCard from "~/components/GithubCard.astro";
 const kingsWorldRepos = await fetchOrgRepos("Kings-World");
 ---
 
-{kingsWorldRepos.map((r) => <GithubCard repo={r} />)}
+{kingsWorldRepos.map((r) => (
+	<GithubCard repo={r} />
+))}

@@ -5,8 +5,8 @@ import GithubCard from "~/components/GithubCard.astro";
 const mixtapeRepos = await fetchOrgRepos("mixtape-bot");
 ---
 
-{
-	mixtapeRepos
-		.filter((r) => ["deck.js", "rpc"].includes(r.name))
-		.map((r) => <GithubCard repo={r} />)
-}
+{mixtapeRepos
+	.filter((r) => ["deck.js", "rpc"].includes(r.name))
+	.map((r) => (
+		<GithubCard repo={r} />
+	))}

@@ -147,7 +147,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@astrojs/compiler@npm:^2.13.1, @astrojs/compiler@npm:^2.9.1":
+"@astrojs/compiler@npm:^2.13.1":
   version: 2.13.1
   resolution: "@astrojs/compiler@npm:2.13.1"
   checksum: 10/ad34cc12c9180e83d75132affd21b9b9a891ab95e6c1a1fb29c6b97241b935bcf35ad79f3328ea2e30569b18270275562d98ab2426d493f492fecc45ffab58f7
@@ -2217,6 +2217,13 @@ __metadata:
   version: 1.2.3
   resolution: "@poppinss/exception@npm:1.2.3"
   checksum: 10/dda850dbaf1e889110a9221604f38b68b24137b39a3127299707ace5d091b875766bad40774ee4cffcb6aebf543251b9e2b7071b0ed4b4c8958f481206d2b372
+  languageName: node
+  linkType: hard
+
+"@prettier/parse-srcset@npm:^3.1.0":
+  version: 3.1.0
+  resolution: "@prettier/parse-srcset@npm:3.1.0"
+  checksum: 10/1acb8c932ea2b252f7969701a3da7b6c2cea153ecbba1155327fce9d8adb910696b1660aa3007c894cf2381ff90b51017f1cde1e6549f7dc333c43dd0c4f89fa
   languageName: node
   linkType: hard
 
@@ -6187,14 +6194,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier-plugin-astro@npm:0.14.1":
-  version: 0.14.1
-  resolution: "prettier-plugin-astro@npm:0.14.1"
+"prettier-plugin-astro@npm:1.0.0":
+  version: 1.0.0
+  resolution: "prettier-plugin-astro@npm:1.0.0"
   dependencies:
-    "@astrojs/compiler": "npm:^2.9.1"
-    prettier: "npm:^3.0.0"
-    sass-formatter: "npm:^0.7.6"
-  checksum: 10/b814fab0303fec49a64889019dfefa44e0ed44f3da746994ba746478d3aa40e7c1b418e4493fa87501c453badf16c17ae1bfe6139e13e80c55aa90fe4354ae04
+    "@astrojs/compiler-rs": "npm:^0.4.0"
+    "@prettier/parse-srcset": "npm:^3.1.0"
+    sass-formatter: "npm:^0.8.0"
+  peerDependencies:
+    prettier: ^3.5.3
+  checksum: 10/5bfa102189d7539a8f7c2aed1425fc095089f6ed40f0cbe47c7a57afc17c86ee9a67508b816afc764e5c52acfeb24137c4914345d4333b2f16386890308fae4a
   languageName: node
   linkType: hard
 
@@ -6256,7 +6265,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier@npm:3.9.6, prettier@npm:^3.0.0, prettier@npm:^3.8.1":
+"prettier@npm:3.9.6, prettier@npm:^3.8.1":
   version: 3.9.6
   resolution: "prettier@npm:3.9.6"
   bin:
@@ -6625,12 +6634,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sass-formatter@npm:^0.7.6":
-  version: 0.7.9
-  resolution: "sass-formatter@npm:0.7.9"
+"sass-formatter@npm:^0.8.0":
+  version: 0.8.0
+  resolution: "sass-formatter@npm:0.8.0"
   dependencies:
     suf-log: "npm:^2.5.3"
-  checksum: 10/aed84f17d8b7f4c7621ce6c306a5eccb756ed701e801e97730a444061ee3c0476fd79b01492096598cd4f700c45152e7b18b096a343823b4cdcba823a23a376b
+  bin:
+    sass-formatter: dist/cli.js
+  checksum: 10/6df15935d6bd9a11abcccdaffa275b07ddb4816ad54885b5578f14bd8edbf242bb7218e745d07e8c39e2f3b8c61eee9f0e821d9f4e022b4abc11f529baffa780
   languageName: node
   linkType: hard
 
@@ -6728,7 +6739,7 @@ __metadata:
     cn: "npm:^0.2.4"
     lucide-react: "npm:^1.40.0"
     prettier: "npm:3.9.6"
-    prettier-plugin-astro: "npm:0.14.1"
+    prettier-plugin-astro: "npm:1.0.0"
     prettier-plugin-tailwindcss: "npm:0.8.1"
     pretty-quick: "npm:4.2.2"
     radix-ui: "npm:^1.6.7"

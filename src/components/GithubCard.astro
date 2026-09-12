@@ -51,17 +51,13 @@ const repoLanguageColour = repo.language
 				<a href={repo.owner.html_url} class="text-xs hover:underline">
 					{repo.owner.name ?? repo.owner.login}
 				</a>
-				{
-					repo.archived && (
-						<Badge variant="destructive" className="ml-auto">
-							Archived
-						</Badge>
-					)
-				}
+				{repo.archived && (
+					<Badge variant="destructive" className="ml-auto">
+						Archived
+					</Badge>
+				)}
 			</div>
-			<CardTitle
-				className="flex shrink items-center justify-between truncate text-lg"
-			>
+			<CardTitle className="flex shrink items-center justify-between truncate text-lg">
 				<a
 					href={repo.html_url}
 					class="inline-flex items-center gap-2"
@@ -79,29 +75,27 @@ const repoLanguageColour = repo.language
 		</CardDescription>
 	</CardHeader>
 	<CardFooter className="text-muted-foreground gap-4 text-xs">
-		{
-			repo.language && (
-				<div class="flex items-center" title="Language">
-					{repoLanguageColour && (
-						<CircleIcon
-							className="mr-1.5 size-3"
-							style={{
-								color: repoLanguageColour,
-								fill: repoLanguageColour,
-							}}
-						/>
-					)}
-					<a
-						target="_blank"
-						href={`${repo.html_url}/search?l=${repo.language.toLowerCase()}`}
-						rel="noopener noreferrer"
-						class="hover:underline"
-					>
-						{repo.language}
-					</a>
-				</div>
-			)
-		}
+		{repo.language && (
+			<div class="flex items-center" title="Language">
+				{repoLanguageColour && (
+					<CircleIcon
+						className="mr-1.5 size-3"
+						style={{
+							color: repoLanguageColour,
+							fill: repoLanguageColour,
+						}}
+					/>
+				)}
+				<a
+					target="_blank"
+					href={`${repo.html_url}/search?l=${repo.language.toLowerCase()}`}
+					rel="noopener noreferrer"
+					class="hover:underline"
+				>
+					{repo.language}
+				</a>
+			</div>
+		)}
 
 		<div class="flex items-center" title="Stars">
 			<StarIcon className="mr-1 size-3" />

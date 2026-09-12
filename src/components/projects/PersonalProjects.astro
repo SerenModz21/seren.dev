@@ -5,4 +5,6 @@ import GithubCard from "~/components/GithubCard.astro";
 const personalRepos = await fetchUserRepos("SerenModz21");
 ---
 
-{personalRepos.map((r) => <GithubCard repo={r} />)}
+{personalRepos.map((r) => (
+	<GithubCard repo={r} />
+))}
