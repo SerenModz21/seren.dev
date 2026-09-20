@@ -5761,7 +5761,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lucide-react@npm:^1.46.0":
+"lucide-react@npm:^1.47.0":
   version: 1.47.0
   resolution: "lucide-react@npm:1.47.0"
   peerDependencies:
@@ -6737,7 +6737,7 @@ __metadata:
     astro: "npm:^7.3.3"
     class-variance-authority: "npm:^0.7.1"
     cn: "npm:^0.3.0"
-    lucide-react: "npm:^1.46.0"
+    lucide-react: "npm:^1.47.0"
     prettier: "npm:3.9.7"
     prettier-plugin-astro: "npm:1.0.1"
     prettier-plugin-tailwindcss: "npm:0.8.1"
