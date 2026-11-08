@@ -31,11 +31,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@astrojs/cloudflare@npm:14.4.5":
-  version: 14.4.5
-  resolution: "@astrojs/cloudflare@npm:14.4.5"
+"@astrojs/cloudflare@npm:14.4.6":
+  version: 14.4.6
+  resolution: "@astrojs/cloudflare@npm:14.4.6"
   dependencies:
-    "@astrojs/internal-helpers": "npm:0.13.0"
+    "@astrojs/internal-helpers": "npm:0.13.1"
     "@astrojs/underscore-redirects": "npm:1.0.4"
     "@cloudflare/vite-plugin": "npm:^1.66.0"
     piccolore: "npm:^0.1.3"
@@ -44,7 +44,7 @@ __metadata:
   peerDependencies:
     astro: ^7.4.0
     wrangler: ^4.125.0
-  checksum: 10/9cf52dd5832104d41e4eed819ee3b4ccc4e3bc49f63ab1ade8da03ac857b4e69660c32964cc435baf352a84eaff810688fe31c144d5628fda0ce0266c024c244
+  checksum: 10/50fbe1cc15debe4c71320d42c23955c12fde9342fef6b0689aa10b26fd524e6d5d0515ef4bde4f1cc4bd402bd60613d19b1dfd4578fc4801539785ad6fe72fda
   languageName: node
   linkType: hard
 
@@ -170,22 +170,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@astrojs/internal-helpers@npm:0.13.0":
-  version: 0.13.0
-  resolution: "@astrojs/internal-helpers@npm:0.13.0"
-  dependencies:
-    "@types/hast": "npm:^3.0.5"
-    "@types/mdast": "npm:^4.0.4"
-    picomatch: "npm:^4.0.7"
-    retext-smartypants: "npm:^6.2.0"
-    shiki: "npm:^4.5.0"
-    smol-toml: "npm:^1.9.1"
-    unified: "npm:^11.0.5"
-    yaml: "npm:^2.9.1"
-  checksum: 10/db35e4b1a5987dfc95a8b7ddcfc7d127088f245314ffbddc0e9e9a14880e1aebaf333cac23d5d7412f87ba16d19f2275788217a59c827f42ab5b69e130b66ae7
-  languageName: node
-  linkType: hard
-
 "@astrojs/internal-helpers@npm:0.13.1":
   version: 0.13.1
   resolution: "@astrojs/internal-helpers@npm:0.13.1"
@@ -258,11 +242,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@astrojs/react@npm:7.1.3":
-  version: 7.1.3
-  resolution: "@astrojs/react@npm:7.1.3"
+"@astrojs/react@npm:7.1.4":
+  version: 7.1.4
+  resolution: "@astrojs/react@npm:7.1.4"
   dependencies:
-    "@astrojs/internal-helpers": "npm:0.13.0"
+    "@astrojs/internal-helpers": "npm:0.13.1"
     "@vitejs/plugin-react": "npm:^6.1.2"
     devalue: "npm:^6.0.3"
     ultrahtml: "npm:^1.7.0"
@@ -276,7 +260,7 @@ __metadata:
   peerDependenciesMeta:
     oxc-transform-react:
       optional: true
-  checksum: 10/31cac9e75d1cb1422defead65b04f6caac852dbdc589806618b83eaa3d78322a68477e0e9b64a0b8d6c0f63aa0b190382df0b89baec5725e09b672eaa27327f6
+  checksum: 10/0e6c4ecadf1148bf6c928a7ab4df47c329d0334b4641c1daf85afc9d1e5c0e44867af36042e63c275cdd5cf9458f5602f0c9c9a75831f7eed69b0334af24cb38
   languageName: node
   linkType: hard
 
@@ -3907,7 +3891,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"astro@npm:^7.4.6":
+"astro@npm:^7.4.7":
   version: 7.4.7
   resolution: "astro@npm:7.4.7"
   dependencies:
@@ -6013,8 +5997,8 @@ __metadata:
   resolution: "seren.dev@workspace:."
   dependencies:
     "@astrojs/check": "npm:0.9.12"
-    "@astrojs/cloudflare": "npm:14.4.5"
-    "@astrojs/react": "npm:7.1.3"
+    "@astrojs/cloudflare": "npm:14.4.6"
+    "@astrojs/react": "npm:7.1.4"
     "@astrojs/sitemap": "npm:3.7.4"
     "@commitlint/cli": "npm:21.2.4"
     "@commitlint/config-conventional": "npm:21.2.4"
@@ -6025,7 +6009,7 @@ __metadata:
     "@tailwindcss/vite": "npm:4.3.4"
     "@types/react": "npm:19.3.0"
     "@types/react-dom": "npm:19.3.0"
-    astro: "npm:^7.4.6"
+    astro: "npm:^7.4.7"
     class-variance-authority: "npm:^0.7.1"
     cn: "npm:^0.5.2"
     lucide-react: "npm:^1.69.0"
