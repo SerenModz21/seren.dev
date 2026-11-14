@@ -170,7 +170,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@astrojs/internal-helpers@npm:0.13.2":
+"@astrojs/internal-helpers@npm:0.13.2, @astrojs/internal-helpers@npm:^0.13.2":
   version: 0.13.2
   resolution: "@astrojs/internal-helpers@npm:0.13.2"
   dependencies:
@@ -221,19 +221,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@astrojs/markdown-satteri@npm:0.4.9":
-  version: 0.4.9
-  resolution: "@astrojs/markdown-satteri@npm:0.4.9"
+"@astrojs/markdown-satteri@npm:^0.4.10":
+  version: 0.4.10
+  resolution: "@astrojs/markdown-satteri@npm:0.4.10"
   dependencies:
-    "@astrojs/internal-helpers": "npm:0.13.2"
-    "@astrojs/prism": "npm:4.1.2"
+    "@astrojs/internal-helpers": "npm:^0.13.2"
+    "@astrojs/prism": "npm:^4.1.2"
     github-slugger: "npm:^2.0.0"
     satteri: "npm:^0.11.6"
-  checksum: 10/1695cab80a3d599eec99cba51eb5b4b1917df9e03063677d77cb7580761076372f9cb48e3e9a549c454696c0ab65dda4daa208a92ef6d887c683457d0dc53c31
+  checksum: 10/2f43484be76dc45f9bda63fbeea9c3f5e495499793bfc1ea639ef6552f8162c13436e058fff945882c2f9fcbeb7457f69bc2223bdea0b5998123926f9b9e0f48
   languageName: node
   linkType: hard
 
-"@astrojs/prism@npm:4.1.2":
+"@astrojs/prism@npm:^4.1.2":
   version: 4.1.2
   resolution: "@astrojs/prism@npm:4.1.2"
   dependencies:
@@ -242,12 +242,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@astrojs/react-renderer@npm:0.1.1":
-  version: 0.1.1
-  resolution: "@astrojs/react-renderer@npm:0.1.1"
+"@astrojs/react-renderer@npm:0.1.2":
+  version: 0.1.2
+  resolution: "@astrojs/react-renderer@npm:0.1.2"
   dependencies:
     "@astrojs/internal-helpers": "npm:0.13.2"
-    "@astrojs/runtime": "npm:0.1.0"
+    "@astrojs/runtime": "npm:0.1.1"
     "@vitejs/plugin-react": "npm:^6.1.2"
     ultrahtml: "npm:^1.7.0"
   peerDependencies:
@@ -255,16 +255,16 @@ __metadata:
     "@types/react-dom": ^17.0.17 || ^18.0.6 || ^19.0.0
     react: ^17.0.2 || ^18.0.0 || ^19.0.0
     react-dom: ^17.0.2 || ^18.0.0 || ^19.0.0
-  checksum: 10/e6964b83b4dd5146ce6f8b0823d43b9b40c77449a77a21c38e17a7d4db820c38544b4061277c81d5277f31435b012932acac08d9c345569e8995e35c2a1f91a7
+  checksum: 10/69a2f44128de64dbe2248c295b5c4838b1a6c5f43baa6c8831d99642759bf34db942a179ff22f7894ac22051cf95b12476c7a13da65284b93008f50db408c128
   languageName: node
   linkType: hard
 
-"@astrojs/react@npm:7.1.7":
-  version: 7.1.7
-  resolution: "@astrojs/react@npm:7.1.7"
+"@astrojs/react@npm:7.1.8":
+  version: 7.1.8
+  resolution: "@astrojs/react@npm:7.1.8"
   dependencies:
     "@astrojs/internal-helpers": "npm:0.13.2"
-    "@astrojs/react-renderer": "npm:0.1.1"
+    "@astrojs/react-renderer": "npm:0.1.2"
     "@vitejs/plugin-react": "npm:^6.2.1"
   peerDependencies:
     "@types/react": ^17.0.50 || ^18.0.21 || ^19.0.0
@@ -275,21 +275,11 @@ __metadata:
   peerDependenciesMeta:
     oxc-transform-react:
       optional: true
-  checksum: 10/39ec13d8c1a855129cd22291fceee27a4f9a9da112d8c4e1a8bd572e06f6b57b42306f5cda0736d2e07004112e5790bda2fe7efb13f52a4f95f59cd547dde21b
+  checksum: 10/d0b7ff5d8468c380d2c0e54d1d8c120008ae61ed4c1622678abdaef79229959325956f3d3a9d556aa82c43a306c859f622eb5dd65b52ad77a8e1f96a6aca2e4d
   languageName: node
   linkType: hard
 
-"@astrojs/runtime@npm:0.1.0":
-  version: 0.1.0
-  resolution: "@astrojs/runtime@npm:0.1.0"
-  dependencies:
-    "@oslojs/encoding": "npm:^1.1.0"
-    clsx: "npm:^2.1.1"
-  checksum: 10/f76fb6c146ab37a8275bb6045664a35dc96b117fe957441565a04a69e6370893301a6535e2c0e37117ca6113d956654bf076247bcb867401475044a62dea39bf
-  languageName: node
-  linkType: hard
-
-"@astrojs/runtime@npm:0.1.1":
+"@astrojs/runtime@npm:0.1.1, @astrojs/runtime@npm:^0.1.1":
   version: 0.1.1
   resolution: "@astrojs/runtime@npm:0.1.1"
   dependencies:
@@ -309,7 +299,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@astrojs/telemetry@npm:3.4.2":
+"@astrojs/telemetry@npm:^3.4.2":
   version: 3.4.2
   resolution: "@astrojs/telemetry@npm:3.4.2"
   dependencies:
@@ -328,13 +318,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@astrojs/vite-plugin-astro@npm:0.1.2":
-  version: 0.1.2
-  resolution: "@astrojs/vite-plugin-astro@npm:0.1.2"
+"@astrojs/vite-plugin-astro@npm:^0.1.3":
+  version: 0.1.3
+  resolution: "@astrojs/vite-plugin-astro@npm:0.1.3"
   dependencies:
     "@astrojs/compiler-rs": "npm:^0.5.1"
-    "@astrojs/internal-helpers": "npm:0.13.2"
-    "@astrojs/runtime": "npm:0.1.1"
+    "@astrojs/internal-helpers": "npm:^0.13.2"
+    "@astrojs/runtime": "npm:^0.1.1"
     common-ancestor-path: "npm:^2.0.0"
     devalue: "npm:^6.0.2"
     magic-string: "npm:^1.4.2"
@@ -343,7 +333,7 @@ __metadata:
     zod: "npm:^4.6.5"
   peerDependencies:
     vite: ^8.3.3
-  checksum: 10/d7c328639c1707229ae2644aacf4a60325c3f9292d07077a0a152c051864a339ea32562f599e9e9cd426ee9266620898cd231be7f5e8ab743381d8fcb8ea4246
+  checksum: 10/f380fb95f69c5b45873fdf9c38599a7c5934467e320a1ff5bcba0c286b4c06a985aa0d36b05f5dc63aabe73700cac24aca46ff713606c5ec9329494f85d7e002
   languageName: node
   linkType: hard
 
@@ -3798,16 +3788,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"astro@npm:^7.4.10":
-  version: 7.4.11
-  resolution: "astro@npm:7.4.11"
+"astro@npm:^7.4.11":
+  version: 7.4.12
+  resolution: "astro@npm:7.4.12"
   dependencies:
     "@astrojs/compiler-rs": "npm:^0.5.2"
-    "@astrojs/internal-helpers": "npm:0.13.2"
-    "@astrojs/markdown-satteri": "npm:0.4.9"
-    "@astrojs/runtime": "npm:0.1.1"
-    "@astrojs/telemetry": "npm:3.4.2"
-    "@astrojs/vite-plugin-astro": "npm:0.1.2"
+    "@astrojs/internal-helpers": "npm:^0.13.2"
+    "@astrojs/markdown-satteri": "npm:^0.4.10"
+    "@astrojs/runtime": "npm:^0.1.1"
+    "@astrojs/telemetry": "npm:^3.4.2"
+    "@astrojs/vite-plugin-astro": "npm:^0.1.3"
     "@capsizecss/unpack": "npm:^4.0.1"
     "@clack/prompts": "npm:^1.8.1"
     "@oslojs/encoding": "npm:^1.1.0"
@@ -3865,7 +3855,7 @@ __metadata:
       optional: true
   bin:
     astro: ./bin/astro.mjs
-  checksum: 10/64bf9ab7c4d18e94e226f1e6cafbfbc9b963d3e48318d0fd5f35c7d3c2dd3ad2f1df26e1dc89e9c419c452bf0d4b8bf4579aeb1d5aff30f1c68353a19c23aadc
+  checksum: 10/be79dac025ea2d9f86404f7664a10223bfd95103318b2f69fb0477e80441dfdcd8163269de8604a1ebb3ff6844670ae8038d75b53378236d807d532414c240f6
   languageName: node
   linkType: hard
 
@@ -5060,6 +5050,25 @@ __metadata:
   languageName: node
   linkType: hard
 
+"miniflare@npm:5.20261110.1-beta":
+  version: 5.20261110.1-beta
+  resolution: "miniflare@npm:5.20261110.1-beta"
+  dependencies:
+    "@cspotcode/source-map-support": "npm:0.8.1"
+    sharp: "npm:0.35.5"
+    undici: "npm:7.30.1"
+    workerd: "npm:1.20261110.1"
+    ws: "npm:8.21.0"
+    youch: "npm:4.1.0-beta.10"
+  peerDependencies:
+    kerberos: ^2.0.0
+  peerDependenciesMeta:
+    kerberos:
+      optional: true
+  checksum: 10/163263a7d392a5aa9ad5c73724d2e055f49da58685b689a94d19d1feb80e757f1ecc9267886198753b33e204e385fe376fae1334972e963f06eab8f74038eaa3
+  languageName: node
+  linkType: hard
+
 "minipass@npm:^7.0.4, minipass@npm:^7.1.2":
   version: 7.1.3
   resolution: "minipass@npm:7.1.3"
@@ -5838,7 +5847,7 @@ __metadata:
   dependencies:
     "@astrojs/check": "npm:0.9.12"
     "@astrojs/cloudflare": "npm:14.4.7"
-    "@astrojs/react": "npm:7.1.7"
+    "@astrojs/react": "npm:7.1.8"
     "@astrojs/sitemap": "npm:3.7.4"
     "@commitlint/cli": "npm:21.2.4"
     "@commitlint/config-conventional": "npm:21.2.4"
@@ -5849,7 +5858,7 @@ __metadata:
     "@tailwindcss/vite": "npm:4.3.5"
     "@types/react": "npm:19.3.0"
     "@types/react-dom": "npm:19.3.0"
-    astro: "npm:^7.4.10"
+    astro: "npm:^7.4.11"
     class-variance-authority: "npm:^0.7.1"
     cn: "npm:^0.5.2"
     lucide-react: "npm:^1.72.0"
@@ -5864,7 +5873,7 @@ __metadata:
     tailwindcss: "npm:4.3.5"
     tw-animate-css: "npm:1.4.0"
     typescript: "npm:6.0.3"
-    wrangler: "npm:4.160.0"
+    wrangler: "npm:4.160.1"
   languageName: unknown
   linkType: soft
 
@@ -6871,6 +6880,36 @@ __metadata:
     wrangler: bin/wrangler.js
     wrangler2: bin/wrangler.js
   checksum: 10/53658d29d84fce8f240b850c5011e2dbd6c34f341f567a02b419db1b47b87712fbfcbf5681147ea737b219607d305f5e1274b9e82c1a848423fd3b5be21f00c8
+  languageName: node
+  linkType: hard
+
+"wrangler@npm:4.160.1":
+  version: 4.160.1
+  resolution: "wrangler@npm:4.160.1"
+  dependencies:
+    "@cloudflare/kv-asset-handler": "npm:0.5.0"
+    "@cloudflare/unenv-preset": "npm:2.16.2"
+    "@cspotcode/source-map-support": "npm:0.8.1"
+    blake3-wasm: "npm:2.1.5"
+    esbuild: "npm:0.28.2"
+    fsevents: "npm:2.3.3"
+    miniflare: "npm:5.20261110.1-beta"
+    path-to-regexp: "npm:6.3.0"
+    unenv: "npm:2.0.0-rc.24"
+    workerd: "npm:1.20261110.1"
+  peerDependencies:
+    "@cloudflare/workers-types": ^5.20261110.1
+  dependenciesMeta:
+    fsevents:
+      optional: true
+  peerDependenciesMeta:
+    "@cloudflare/workers-types":
+      optional: true
+  bin:
+    cf-wrangler: bin/cf-wrangler.js
+    wrangler: bin/wrangler.js
+    wrangler2: bin/wrangler.js
+  checksum: 10/776b74133c5038516f2e716710950e61609081756de2de43f6d3b1f15116cd665293b7786e7a48244cf779117c6982d3c41ef8e4974b63055c074eb162dbe10f
   languageName: node
   linkType: hard
 
